@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="WEBMC 1.8" />
-<meta name="keywords" content="webmc, minecraft, 1.8, 1.8.8" />
-<title>WEBMC 1.8</title>
-<link type="image/png" rel="icon" href="WEBMC-9-7-2026.png" />
-<style>
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-color: #050807;
-}
-#launch_countdown_screen {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 999999;
-  font-family: Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  background: #050807;
-  color: #f5f5f5;
-}
-</style>
-</head>
-<body id="game_frame">
-<div id="launch_countdown_screen">
-  <div style="width:min(76vw,720px);text-align:center;">
-    <img src="WEBMC-9-7-2026.png" alt="WEBMC" style="display:block;width:100%;height:auto;margin:0 auto;filter:drop-shadow(0 8px 20px rgba(0,0,0,.65));" />
-  </div>
-</div>
-<script type="text/javascript">
+
 "use strict";
 
 
@@ -31598,6 +31558,3 @@ window.addEventListener("load", function() {
 	}, 12000);
 });
 
-</script>
-</body>
-</html>
