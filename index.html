@@ -41,15 +41,10 @@ html, body {
 </head>
 <body id="game_frame">
 <div id="launch_countdown_screen">
-  <div style="width:min(90vw,540px);text-align:center;background:rgba(18,18,18,0.92);border:4px solid #000;box-shadow:inset 3px 3px 0px #444, inset -3px -3px 0px #1a1a1a, 0 20px 60px rgba(0,0,0,0.95);padding:36px 28px;user-select:none;font-family:'Minecraft',monospace;">
-    <img src="WEBMC-9-7-2026.png" alt="WEBMC" style="display:block;width:min(88%,420px);height:auto;margin:0 auto 24px;filter:drop-shadow(0 6px 18px rgba(0,0,0,0.9));" />
-    
-    <div style="font-size:22px;color:#ffffff;text-shadow:2px 2px #000;letter-spacing:2px;margin-bottom:18px;">
+  <div style="text-align:center;user-select:none;font-family:'Minecraft',monospace;">
+    <img src="WEBMC-9-7-2026.png" alt="WEBMC" style="display:block;width:min(88vw,480px);height:auto;margin:0 auto 28px;filter:drop-shadow(0 10px 30px rgba(0,0,0,0.9));" />
+    <div style="font-size:24px;color:#ffffff;text-shadow:2px 2px #000;letter-spacing:3px;">
       Loading...
-    </div>
-
-    <div style="font-size:13px;color:#aaaaaa;text-shadow:1px 1px #000;letter-spacing:0.5px;">
-      Minecraft 1.8.8 Browser Edition &bull; by TheLegendaryMilo
     </div>
   </div>
 </div>
@@ -31613,36 +31608,34 @@ window.showWebMCCredits = function() {
   if(existing) existing.remove();
   var modal = document.createElement("div");
   modal.id = "webmc_credits_modal";
-  modal.style = "position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:9999999;display:flex;align-items:center;justify-content:center;font-family:'Minecraft',monospace;padding:16px;user-select:none;";
+  modal.style = "position:fixed;inset:0;width:100vw;height:100vh;background:#181818;z-index:9999999;display:flex;flex-direction:column;font-family:'Minecraft',monospace;box-sizing:border-box;user-select:none;padding:24px 16px 20px;";
   modal.innerHTML = `
-    <div style="background:#232323;border:4px solid #000000;box-shadow:inset 3px 3px 0px #4a4a4a, inset -3px -3px 0px #111111, 0 25px 60px rgba(0,0,0,0.95);width:min(94vw,660px);max-height:90vh;display:flex;flex-direction:column;color:#ffffff;padding:24px 28px;box-sizing:border-box;">
-      <div style="text-align:center;margin-bottom:14px;">
-        <h2 style="margin:0 0 6px;font-size:22px;color:#ffff55;text-shadow:2px 2px #3f3f00;font-weight:normal;letter-spacing:1px;">WEBMC 1.8.8 v1 beta - Credits</h2>
-        <div style="font-size:13px;color:#aaaaaa;text-shadow:1px 1px #000;">Minecraft 1.8.8 converted into the browser!</div>
+    <div style="text-align:center;margin-bottom:18px;flex-shrink:0;">
+      <h1 style="margin:0 0 8px;font-size:26px;color:#ffff55;text-shadow:2px 2px #3f3f00;font-weight:normal;letter-spacing:1px;">WEBMC 1.8.8 v1 beta - Credits</h1>
+      <div style="font-size:14px;color:#aaaaaa;text-shadow:1px 1px #000;">Minecraft 1.8.8 converted into the browser!</div>
+    </div>
+    <div style="flex:1;overflow-y:auto;width:100%;max-width:860px;margin:0 auto 18px;background:rgba(0,0,0,0.5);border:2px solid #000;box-shadow:inset 2px 2px 0 #151515, inset -2px -2px 0 #333;padding:24px 28px;box-sizing:border-box;font-size:14px;line-height:1.7;color:#e0e0e0;">
+      <div style="margin-bottom:18px;">
+        <div style="color:#55ffff;font-size:15px;text-shadow:1px 1px #003f3f;margin-bottom:6px;">Original Game and Assets</div>
+        <div style="text-shadow:1px 1px #000;">All original Minecraft game code, mechanics, sound effects, music, textures, models, and world generation belong to Mojang AB and Microsoft. This project is an educational browser port and is not affiliated with Mojang or Microsoft.</div>
       </div>
-      <div style="overflow-y:auto;flex:1;background:rgba(0,0,0,0.45);border:2px solid #000;box-shadow:inset 2px 2px 0 #151515, inset -2px -2px 0 #333;padding:16px;margin-bottom:20px;font-size:13px;line-height:1.6;color:#e0e0e0;">
-        <div style="margin-bottom:14px;">
-          <div style="color:#55ffff;font-size:14px;text-shadow:1px 1px #003f3f;margin-bottom:4px;">Original Game and Assets</div>
-          <div style="text-shadow:1px 1px #000;">All original Minecraft game code, mechanics, sound effects, music, textures, models, and world generation belong to Mojang AB and Microsoft. This project is an educational browser port and is not affiliated with Mojang or Microsoft.</div>
-        </div>
-        <div style="margin-bottom:14px;">
-          <div style="color:#55ffff;font-size:14px;text-shadow:1px 1px #003f3f;margin-bottom:4px;">TeaVM Ahead-Of-Time Compiler</div>
-          <div style="text-shadow:1px 1px #000;">WebMC runs natively inside standard modern web browsers without plugins or external runtime dependencies. This is accomplished using TeaVM, an ahead-of-time bytecode compiler that analyzes compiled Java class files and transpiles them directly into high-performance JavaScript and WebAssembly. Through TeaVM, Minecraft's rendering pipeline, OpenGL and WebGL abstraction layers, entity physics, world ticking, and network protocols execute client-side at smooth 60 frames per second.</div>
-        </div>
-        <div style="margin-bottom:14px;">
-          <div style="color:#55ffff;font-size:14px;text-shadow:1px 1px #003f3f;margin-bottom:4px;">Web Client Port and Customization</div>
-          <div style="text-shadow:1px 1px #000;">Remade, customized, and maintained for the browser by TheLegendaryMilo. Includes custom web canvas bindings, high-resolution panorama rendering, WebAudio playback, customized GUI layouts, and single-file web deployment.</div>
-        </div>
-        <div>
-          <div style="color:#55ffff;font-size:14px;text-shadow:1px 1px #003f3f;margin-bottom:4px;">Development Tools and Environment</div>
-          <div style="text-shadow:1px 1px #000;">Built and tested utilizing GitHub Codespaces cloud development containers alongside Google Antigravity (Gemini Flash) for engineering, optimization, and code transformations.</div>
-        </div>
+      <div style="margin-bottom:18px;">
+        <div style="color:#55ffff;font-size:15px;text-shadow:1px 1px #003f3f;margin-bottom:6px;">TeaVM Ahead-Of-Time Compiler</div>
+        <div style="text-shadow:1px 1px #000;">WebMC runs natively inside standard modern web browsers without plugins or external runtime dependencies. This is accomplished using TeaVM, an ahead-of-time bytecode compiler that analyzes compiled Java class files and transpiles them directly into high-performance JavaScript and WebAssembly. Through TeaVM, Minecraft's rendering pipeline, OpenGL and WebGL abstraction layers, entity physics, world ticking, and network protocols execute client-side at smooth 60 frames per second.</div>
       </div>
-      <div style="text-align:center;">
-        <button id="webmc_credits_close" style="width:200px;height:38px;background:#707070;border:2px solid #000;box-shadow:inset 2px 2px 0px #aaa, inset -2px -2px 0px #383838;color:#ffffff;font-family:'Minecraft',monospace;font-size:14px;text-shadow:1px 1px #000;cursor:pointer;outline:none;">
-          Done
-        </button>
+      <div style="margin-bottom:18px;">
+        <div style="color:#55ffff;font-size:15px;text-shadow:1px 1px #003f3f;margin-bottom:6px;">Web Client Port and Customization</div>
+        <div style="text-shadow:1px 1px #000;">Remade, customized, and maintained for the browser by TheLegendaryMilo. Includes custom web canvas bindings, high-resolution panorama rendering, WebAudio playback, customized GUI layouts, and single-file web deployment.</div>
       </div>
+      <div>
+        <div style="color:#55ffff;font-size:15px;text-shadow:1px 1px #003f3f;margin-bottom:6px;">Development Tools and Environment</div>
+        <div style="text-shadow:1px 1px #000;">Built and tested utilizing GitHub Codespaces cloud development containers alongside Google Antigravity (Gemini Flash) for engineering, optimization, and code transformations.</div>
+      </div>
+    </div>
+    <div style="text-align:center;flex-shrink:0;">
+      <button id="webmc_credits_close" style="width:200px;height:42px;background:#707070;border:2px solid #000;box-shadow:inset 2px 2px 0px #aaa, inset -2px -2px 0px #383838;color:#ffffff;font-family:'Minecraft',monospace;font-size:15px;text-shadow:1px 1px #000;cursor:pointer;outline:none;">
+        Done
+      </button>
     </div>
   `;
   document.body.appendChild(modal);
