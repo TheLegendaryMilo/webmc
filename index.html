@@ -52,25 +52,7 @@ html, body {
   </div>
 </div>
 
-<script type="text/javascript">
-(function() {
-  var pct = 5;
-  var bar = document.getElementById("webmc_progress_bar");
-  var status = document.getElementById("webmc_loading_status");
-  var pctLabel = document.getElementById("webmc_loading_pct");
-  function updateProgress(val, text) {
-    pct = Math.max(pct, val);
-    if(bar) bar.style.width = pct + "%";
-    if(pctLabel) pctLabel.innerText = Math.round(pct) + "%";
-    if(status && text) status.innerText = text;
-  }
-  window.setWebMCProgress = updateProgress;
-  setTimeout(function() { updateProgress(22, "Initializing audio & WebGL canvas..."); }, 150);
-  setTimeout(function() { updateProgress(48, "Decompressing textures & assets..."); }, 650);
-  setTimeout(function() { updateProgress(74, "Compiling OpenGL shaders..."); }, 1300);
-  setTimeout(function() { updateProgress(92, "Constructing world & menus..."); }, 2100);
-})();
-</script>
+
 
 <script type="text/javascript">
 
