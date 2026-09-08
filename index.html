@@ -54,6 +54,13 @@ html, body {
 .webmc_dot:nth-child(2) { animation-delay: 0.25s; }
 .webmc_dot:nth-child(3) { animation-delay: 0.5s; }
 
+
+canvas, #game_frame canvas {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
 </style>
 </head>
 <body id="game_frame">
@@ -5216,7 +5223,7 @@ F($$e);if($$je instanceof Q){}else{throw $$e;}}$p=23;continue _;case 20:a:{try{F
 =255;bd=255;$p=30;case 30:if(B()){break _;}$p=31;case 31:BqA();if(B()){break _;}$p=32;case 32:A.BD();if(B()){break _;}$p=33;case 33:A.RA();if(B()){break _;}d=516;n=0.10000000149011612;$p=34;case 34:A.J9(d,n);if(B()){break _;}$p=35;case 35:A.Bf5(a);if(B()){break _;}return;default:FX();}}Dl().s(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ba,bb,bc,bd,$p);}
 A.UV=function(a,b,c,d,e,f,g,h,i,j,k){var l,m,n,o,p,q,r,s,t,u,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();u=$T.l();t=$T.l();s=$T.l();r=$T.l();q=$T.l();p=$T.l();o=$T.l();n=$T.l();m=$T.l();l=$T.l();k=$T.l();j=$T.l();i=$T.l();h=$T.l();g=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:l=0.00390625;m=0.00390625;$p=1;case 1:$z=A.A4X();if(B()){break _;}n=$z;o=n.c6;Cn();B8(o,7,A.Co1);p=b;q=c+g|0;n=T(o,p,q,0.0);r=d*l;s=(e+g|0)*m;n=BN(Ba(n,r,s),h,i,j,k);$p=2;case 2:Cw0(n);if
 (B()){break _;}t=b+f|0;n=T(o,t,q,0.0);u=(d+f|0)*l;n=BN(Ba(n,u,s),h,i,j,k);$p=3;case 3:Cw0(n);if(B()){break _;}q=c;n=T(o,t,q,0.0);s=e*m;n=BN(Ba(n,u,s),h,i,j,k);$p=4;case 4:Cw0(n);if(B()){break _;}n=BN(Ba(T(o,p,q,0.0),r,s),h,i,j,k);$p=5;case 5:Cw0(n);if(B()){break _;}$p=6;case 6:$z=A.A4X();if(B()){break _;}n=$z;$p=7;case 7:A.PV(n);if(B()){break _;}return;default:FX();}}Dl().s(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,$p);};
-A.BwN=function(a,b){window.webmcMinecraft=a;if(b instanceof FB&&window.hideWebMCLoading)window.hideWebMCLoading();var c,d,e,f,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:if(a.bf!==null){c=a.bf;$p=1;continue _;}if(b===null&&a.F===null){b=new FB;$p=3;continue _;}if(b===null){c=a.m;$p=2;continue _;}if(!(b instanceof FB)){a.bf=b;if(b!==null){$p=8;continue _;}b=a.fP;$p=6;continue _;}a.b.eR=0;c=a.cL.el;$p=5;continue _;case 1:c.xE();if(B()){break _;}if(b===null&&a.F===null){b=new FB;$p=3;continue _;}if(b===null){c=a.m;$p=2;continue _;}if
+A.BwN=function(a,b){window.A=A;window.webmcMinecraft=a;window.webmcDisplayGuiScreen=A.BwN;if(b instanceof FB&&window.hideWebMCLoading)window.hideWebMCLoading();var c,d,e,f,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:if(a.bf!==null){c=a.bf;$p=1;continue _;}if(b===null&&a.F===null){b=new FB;$p=3;continue _;}if(b===null){c=a.m;$p=2;continue _;}if(!(b instanceof FB)){a.bf=b;if(b!==null){$p=8;continue _;}b=a.fP;$p=6;continue _;}a.b.eR=0;c=a.cL.el;$p=5;continue _;case 1:c.xE();if(B()){break _;}if(b===null&&a.F===null){b=new FB;$p=3;continue _;}if(b===null){c=a.m;$p=2;continue _;}if
 (!(b instanceof FB)){a.bf=b;if(b!==null){$p=8;continue _;}b=a.fP;$p=6;continue _;}a.b.eR=0;c=a.cL.el;$p=5;continue _;case 2:$z=BRn(c);if(B()){break _;}d=$z;if(d<=0.0){b=new AOw;$p=4;continue _;}if(!(b instanceof FB)){a.bf=b;if(b!==null){$p=8;continue _;}b=a.fP;$p=6;continue _;}a.b.eR=0;c=a.cL.el;$p=5;continue _;case 3:BdX(b);if(B()){break _;}if(!(b instanceof FB)){a.bf=b;if(b!==null){$p=8;continue _;}b=a.fP;$p=6;continue _;}a.b.eR=0;c=a.cL.el;$p=5;continue _;case 4:BPy(b);if(B()){break _;}if(!(b instanceof FB))
 {a.bf=b;if(b!==null){$p=8;continue _;}b=a.fP;$p=6;continue _;}a.b.eR=0;c=a.cL.el;$p=5;case 5:A.Xq(c);if(B()){break _;}a.bf=b;if(b!==null){$p=8;continue _;}b=a.fP;$p=6;case 6:Cna(b);if(B()){break _;}$p=7;case 7:Bzq(a);if(B()){break _;}return;case 8:A.Bu4(a);if(B()){break _;}c=new Hz;$p=9;case 9:Ca6(c,a);if(B()){break _;}e=c.fp;f=c.dG;$p=10;case 10:Cya(b,a,e,f);if(B()){break _;}a.bQe=0;return;default:FX();}}Dl().s(a,b,c,d,e,f,$p);};
 function BP$(a,b){var c,d,e,f,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:if(!a.cfC)return;$p=1;case 1:EV();if(B()){break _;}c=A.Coc.getError();if(!c)return;a:{switch(c){case -100:break;case 1280:d=C(248);break a;case 1281:d=C(249);break a;case 1282:d=C(250);break a;case 1285:d=C(251);break a;case 1286:d=C(252);break a;default:d=C(253);break a;}d=C(254);}e=A.Coo;f=C(255);$p=2;case 2:A.Mm(e,f);if(B()){break _;}f=A.Coo;e=new K;L(e);H(e,
@@ -17747,7 +17754,7 @@ function Ca9(a){window.webmcMinecraft=a.g;if(!window.webmcLaunchSingleplayer){wi
 (h&&W(C(3799))>0)g=g+11|0;e=a.R;b=new B3;c=1;d=(a.v/2|0)-100|0;i=g+0|0;f=$rt_str("Singleplayer");j=G(D,0);$p=11;case 11:$z=A.B2V(f,j);if(B()){break _;}f=$z;$p=12;case 12:Bht(b,c,d,i,f);if(B()){break _;}$p=13;case 13:U(e,b);if(B()){break _;}b=a.R;e=new B3;c=2;d=(a.v/2|0)-100|0;i=g+24|0;f=C(3800);j=G(D,0);$p=14;case 14:$z=A.B2V(f,j);if(B()){break _;}f=$z;$p=15;case 15:Bht(e,c,d,i,f);if(B()){break _;}$p=16;case 16:U(b,e);if(B()){break _;}e.cV=1;e=a.R;f=new B3;c=0;i=(a.v/2|0)-100|0;k=(g+72|0);l=98;d=20;b=C(3804);j=G(D,0);$p
 =17;case 17:$z=A.B2V(b,j);if(B()){break _;}b=$z;$p=18;case 18:A1H(f,c,i,k,l,d,b);if(B()){break _;}$p=19;case 19:U(e,f);if(B()){break _;}b=a.R;e=new B3;c=4;d=(a.v/2|0)+2|0;g=98;i=20;f=C(3805);j=G(D,0);$p=20;case 20:$z=A.B2V(f,j);if(B()){break _;}f=$z;$p=21;case 21:A1H(e,c,d,k,g,i,f);if(B()){break _;}$p=22;case 22:U(b,e);if(B()){break _;}b=a.R;e=new Bjw;c=5;d=(a.v/2|0)-124|0;g=20;i=20;f=C(10);$p=23;case 23:A1H(e,c,d,k,g,i,f);if(B()){break _;}$p=24;case 24:U(b,e);if(B()){break _;}var modsBtn=new B3;A1H(modsBtn,14,(a.v/2|0)-100|0,(k-24|0),200,20,$rt_str("Mods"));U(a.R,modsBtn);var credBtn=new B3;A1H(credBtn,15,(a.v/2|0)-100|0,(k+24|0),200,20,$rt_str("Credits"));U(a.R,credBtn);if(!h){a.g.btM=0;return;}a.Ob=
 C(3806);a.x0=C(3799);c=a.x0!==null&&W(a.x0)>0?1:0;a.ciL=BW(a.y,a.Ob);a.bgh=BW(a.y,a.x0);d=Ce(a.ciL,a.bgh);a.bfH=(a.v-d|0)/2|0;b=a.R;g=0;$p=25;case 25:$z=Bo(b,g);if(B()){break _;}b=$z;a.VM=b.fu-(!c?21:32)|0;a.bTd=a.bfH+d|0;a.bLB=a.VM+(!c?11:24)|0;a.g.btM=0;return;default:FX();}}Dl().s(a,b,c,d,e,f,g,h,i,j,k,l,$p);}
-function Coe(a,b){
+function Coe(a,b){window.webmcGuiMainMenuAction=Coe;
   window.webmcLaunchSingleplayer = function(id, title) {
     try {
       var mc = window.webmcMinecraft || a.g;
@@ -17772,9 +17779,10 @@ function Coe(a,b){
       console.error("Singleplayer connect error:", e, e.stack, e.$javaException);
     }
   };
-  if(b&&b.S==15){if(window.showWebMCCredits)window.showWebMCCredits();return;}if(b&&b.S==1){if(window.openWebMCSingleplayer){window.openWebMCSingleplayer();}return;}if(b&&b.S==14){if(window.openWebMCMods){window.openWebMCMods();return;}}if(b&&b.S==0){if(window.openWebMCSettings){window.openWebMCSettings(function(){var c=a.g,d=new AGn,e=a.g.b;A0u(d,a,e);A.BwN(c,d);});return;}}if(b&&b.S==5){if(window.openWebMCSkinCapeLibrary){window.openWebMCSkinCapeLibrary();return;}}if(b&&b.S==14){if(window.showWebMCNotice)window.showWebMCNotice("Mods","Coming Soon!\n\nCustom mod support is currently in development and will be added in a future version of WEBMC!");return;}var c,d,e,f,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:if(!b.S){c=a.g;d=new AGn;e=a.g.b;$p=1;continue _;}if(b.S==5){c=a.g;d=new ADn;e=a.g.b;f=a.g.A9;$p=3;continue _;}if(b.S==1){c=A.C3O;d=C(3807);$p=5;continue _;}if(b.S==2){c=a.g;d=new LN;$p=6;continue _;}if(b.S==4){c=a.g;d=new O4;$p=8;continue _;}if(b.S!=14)return;b=C(3808);$p=10;continue _;case 1:A0u(d,a,e);if(B()){break _;}$p=2;case 2:A.BwN(c,d);if(B())
+  if(b&&b.S==15){if(window.showWebMCCredits)window.showWebMCCredits();return;}if(b&&b.S==1){if(window.openWebMCSingleplayer){window.openWebMCSingleplayer();}return;}if(b&&b.S==14){if(window.openWebMCMods){window.openWebMCMods();return;}}if(b&&b.S==0){if(window.openWebMCSettings){window.openWebMCSettings(function(){var c=a.g,d=new AGn,e=a.g.b;A0u(d,a,e);A.BwN(c,d);});return;}}if(b&&b.S==5){c=a.g;d=new ADn;e=a.g.b;f=a.g.A9;A.A7c(d,a,e,f);A.BwN(c,d);return;}if(b&&b.S==14){if(window.showWebMCNotice)window.showWebMCNotice("Mods","Coming Soon!\n\nCustom mod support is currently in development and will be added in a future version of WEBMC!");return;}var c,d,e,f,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:if(!b.S){c=a.g;d=new AGn;e=a.g.b;$p=1;continue _;}if(b.S==5){c=a.g;d=new ADn;e=a.g.b;f=a.g.A9;$p=3;continue _;}if(b.S==1){c=A.C3O;d=C(3807);$p=5;continue _;}if(b.S==2){c=a.g;d=new LN;$p=6;continue _;}if(b.S==4){c=a.g;d=new O4;$p=8;continue _;}if(b.S!=14)return;b=C(3808);$p=10;continue _;case 1:A0u(d,a,e);if(B()){break _;}$p=2;case 2:A.BwN(c,d);if(B())
 {break _;}if(b.S==5){c=a.g;d=new ADn;e=a.g.b;f=a.g.A9;$p=3;continue _;}if(b.S==1){c=A.C3O;d=C(3807);$p=5;continue _;}if(b.S==2){c=a.g;d=new LN;$p=6;continue _;}if(b.S==4){c=a.g;d=new O4;$p=8;continue _;}if(b.S!=14)return;b=C(3808);$p=10;continue _;case 3:A.A7c(d,a,e,f);if(B()){break _;}$p=4;case 4:A.BwN(c,d);if(B()){break _;}if(b.S==1){c=A.C3O;d=C(3807);$p=5;continue _;}if(b.S==2){c=a.g;d=new LN;$p=6;continue _;}if(b.S==4){c=a.g;d=new O4;$p=8;continue _;}if(b.S!=14)return;b=C(3808);$p=10;continue _;case 5:A.Mm(c,
 d);if(B()){break _;}if(b.S==2){c=a.g;d=new LN;$p=6;continue _;}if(b.S==4){c=a.g;d=new O4;$p=8;continue _;}if(b.S!=14)return;b=C(3808);$p=10;continue _;case 6:Bkw(d,a);if(B()){break _;}$p=7;case 7:A.BwN(c,d);if(B()){break _;}if(b.S==4){c=a.g;d=new O4;$p=8;continue _;}if(b.S!=14)return;b=C(3808);$p=10;continue _;case 8:A4I(d,a);if(B()){break _;}$p=9;case 9:A.BwN(c,d);if(B()){break _;}if(b.S!=14)return;b=C(3808);$p=10;case 10:alert("Mods: Coming Soon!");return;default:FX();}}Dl().s(a,b,c,d,e,f,$p);}
+window.webmcGuiMainMenuAction = Coe;
 A.AHX=function(a,b,c,d){var e,f,g,h,i,j,k,l,m,n,o,p,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();p=$T.l();o=$T.l();n=$T.l();m=$T.l();l=$T.l();k=$T.l();j=$T.l();i=$T.l();h=$T.l();g=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:$p=1;case 1:$z=A.A4X();if(B()){break _;}e=$z;f=e.c6;A.CoW=5889;$p=2;case 2:B8$();if(B()){break _;}$p=3;case 3:A.Bc9();if(B()){break _;}g=120.0;h=1.0;i=0.05000000074505806;j=10.0;$p=4;case 4:A.AN$(g,h,i,j);if(B()){break _;}A.CoW=5888;$p=5;case 5:B8$();if
 (B()){break _;}$p=6;case 6:A.Bc9();if(B()){break _;}h=1.0;i=1.0;j=1.0;g=1.0;$p=7;case 7:BsX(h,i,j,g);if(B()){break _;}h=180.0;i=1.0;j=0.0;g=0.0;$p=8;case 8:A.Ic(h,i,j,g);if(B()){break _;}h=90.0;i=0.0;j=0.0;g=1.0;$p=9;case 9:A.Ic(h,i,j,g);if(B()){break _;}$p=10;case 10:BN0();if(B()){break _;}$p=11;case 11:Cpn();if(B()){break _;}$p=12;case 12:A.AKz();if(B()){break _;}b=0;$p=13;case 13:A.A_2(b);if(B()){break _;}b=770;c=771;k=1;l=0;$p=14;case 14:A.BnZ(b,c,k,l);if(B()){break _;}m=8;n=0;if(n<1){$p=21;continue _;}Gb(f,
 0.0,0.0,0.0);b=1;c=1;k=1;l=1;$p=15;case 15:Cyq(b,c,k,l);if(B()){break _;}A.CoW=5889;$p=16;case 16:CgX();if(B()){break _;}A.CoW=5888;$p=17;case 17:CgX();if(B()){break _;}b=1;$p=18;case 18:A.A_2(b);if(B()){break _;}$p=19;case 19:A.Ra();if(B()){break _;}$p=20;case 20:A.Bb1();if(B()){break _;}return;case 21:B8$();if(B()){break _;}h=0.0;i=0.0;j=0.0;$p=22;case 22:A.ABZ(h,i,j);if(B()){break _;}h=BK((a.bjN+d)/400.0)*25.0+20.0;i=1.0;j=0.0;g=0.0;$p=23;case 23:A.Ic(h,i,j,g);if(B())
@@ -26550,8 +26558,7 @@ A.AWb=function(a,b){var $p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();b=$T.l();a=$T.
 function BSQ(a,b){var $p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:a.f_=a.f_+b;$p=1;case 1:A.BaE(a);if(B()){break _;}a.nw=(-2);return;default:FX();}}Dl().s(a,b,$p);}
 function BY2(a,b){var $p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:if(b.cV){if(b.S==a.bYk){a.f_=a.f_-((a.iG*2|0)/3|0);a.nw=(-2);$p=1;continue _;}if(b.S==a.b0Q){a.f_=a.f_+((a.iG*2|0)/3|0);a.nw=(-2);$p=2;continue _;}}return;case 1:A.BaE(a);if(B()){break _;}return;case 2:A.BaE(a);if(B()){break _;}return;default:FX();}}Dl().s(a,b,$p);}
 function BXb(a,b,c,d){var e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();v=$T.l();u=$T.l();t=$T.l();s=$T.l();r=$T.l();q=$T.l();p=$T.l();o=$T.l();n=$T.l();m=$T.l();l=$T.l();k=$T.l();j=$T.l();i=$T.l();h=$T.l();g=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:if(!a.b5$)return;a.np=b;a.oz=c;$p=1;case 1:a.a9S();if(B()){break _;}$p=2;case 2:$z=a.bvt();if(B()){break _;}e=$z;f=e+6|0;$p=3;case 3:A.BaE(a);if(B()){break _;}$p=4;case 4:BqA();if
-(B()){break _;}$p=5;case 5:A.BD();if(B()){break _;}$p=6;case 6:$z=A.A4X();if(B()){break _;}g=$z;$p=7;case 7:$z=CBz(g);if(B()){break _;}h=$z;i=a.a3v;$p=8;case 8:$z=Cll(i);if(B()){break _;}i=$z;j=A.CZ0;$p=9;case 9:A.A6Z(i,j);if(B()){break _;}k=1.0;l=1.0;d=1.0;m=1.0;$p=10;case 10:BsX(k,l,d,m);if(B()){break _;}m=1024.0;Cn();B8(h,7,A.Co1);i=BN(Ba(T(h,a.j1,a.hM,0.0),a.j1/m,(a.hM+(a.f_|0)|0)/m),32,32,32,255);$p=11;case 11:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.va,a.hM,0.0),a.va/m,(a.hM+(a.f_|0)|0)/m),32,32,32,255);$p
-=12;case 12:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.va,a.e4,0.0),a.va/m,(a.e4+(a.f_|0)|0)/m),32,32,32,255);$p=13;case 13:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.j1,a.e4,0.0),a.j1/m,(a.e4+(a.f_|0)|0)/m),32,32,32,255);$p=14;case 14:Cw0(i);if(B()){break _;}$p=15;case 15:A.PV(g);if(B()){break _;}n=a.j1+(a.j3/2|0)|0;$p=16;case 16:$z=a.UK();if(B()){break _;}o=$z;n=(n-(o/2|0)|0)+2|0;o=(a.e4+4|0)-(a.f_|0)|0;if(!a.b8z){$p=17;continue _;}$p=37;continue _;case 17:BRG(a,n,o,b,c);if(B()){break _;}$p=18;case 18:CAN();if(B())
+(B()){break _;}$p=5;case 5:A.BD();if(B()){break _;}$p=6;case 6:$z=A.A4X();if(B()){break _;}g=$z;$p=7;case 7:$z=CBz(g);if(B()){break _;}h=$z;i=a.a3v;$p=8;case 8:$z=Cll(i);if(B()){break _;}i=$z;var isCustBg=!!(A.C3V&&A.C3V.data&&A.C3V.data[0]);j=isCustBg?A.C3V.data[0]:A.CZ0;$p=9;case 9:A.A6Z(i,j);if(isCustBg){BN0();A.BnZ(770,771,0,1);BPd();}if(B()){break _;}k=1.0;l=1.0;d=1.0;m=1.0;$p=10;case 10:BsX(k,l,d,m);if(B()){break _;}m=1024.0;if(!isCustBg){Cn();}else{BPd();}B8(h,7,A.Co1);var slotClr=isCustBg?0:32,slotA=isCustBg?90:255;i=BN(Ba(T(h,a.j1,a.hM,0.0),a.j1/m,(a.hM+(a.f_|0)|0)/m),slotClr,slotClr,slotClr,slotA);$p=11;case 11:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.va,a.hM,0.0),a.va/m,(a.hM+(a.f_|0)|0)/m),slotClr,slotClr,slotClr,slotA);$p=12;case 12:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.va,a.e4,0.0),a.va/m,(a.e4+(a.f_|0)|0)/m),slotClr,slotClr,slotClr,slotA);$p=13;case 13:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.j1,a.e4,0.0),a.j1/m,(a.e4+(a.f_|0)|0)/m),slotClr,slotClr,slotClr,slotA);$p=14;case 14:Cw0(i);if(B()){break _;}$p=15;case 15:A.PV(g);if(isCustBg){Cn();}if(B()){break _;}n=a.j1+(a.j3/2|0)|0;$p=16;case 16:$z=a.UK();if(B()){break _;}o=$z;n=(n-(o/2|0)|0)+2|0;o=(a.e4+4|0)-(a.f_|0)|0;if(!a.b8z){$p=17;continue _;}$p=37;continue _;case 17:BRG(a,n,o,b,c);if(B()){break _;}$p=18;case 18:CAN();if(B())
 {break _;}n=4;o=0;p=a.e4;q=255;r=255;$p=19;case 19:A.BiY(a,o,p,q,r);if(B()){break _;}o=a.hM;p=a.bR2;q=255;r=255;$p=20;case 20:A.BiY(a,o,p,q,r);if(B()){break _;}$p=21;case 21:BN0();if(B()){break _;}o=770;p=771;q=0;r=1;$p=22;case 22:A.BnZ(o,p,q,r);if(B()){break _;}$p=23;case 23:Cpn();if(B()){break _;}o=7425;$p=24;case 24:A.A39(o);if(B()){break _;}$p=25;case 25:BPd();if(B()){break _;}B8(h,7,A.Co1);i=BN(Ba(T(h,a.j1,a.e4+n|0,0.0),0.0,1.0),0,0,0,0);$p=26;case 26:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.va,a.e4+n|0,0.0),
 1.0,1.0),0,0,0,0);$p=27;case 27:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.va,a.e4,0.0),1.0,0.0),0,0,0,255);$p=28;case 28:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.j1,a.e4,0.0),0.0,0.0),0,0,0,255);$p=29;case 29:Cw0(i);if(B()){break _;}$p=30;case 30:A.PV(g);if(B()){break _;}B8(h,7,A.Co1);i=BN(Ba(T(h,a.j1,a.hM,0.0),0.0,1.0),0,0,0,255);$p=31;case 31:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.va,a.hM,0.0),1.0,1.0),0,0,0,255);$p=32;case 32:Cw0(i);if(B()){break _;}i=BN(Ba(T(h,a.va,a.hM-n|0,0.0),1.0,0.0),0,0,0,0);$p=33;case 33:Cw0(i);if
 (B()){break _;}i=BN(Ba(T(h,a.j1,a.hM-n|0,0.0),0.0,0.0),0,0,0,0);$p=34;case 34:Cw0(i);if(B()){break _;}$p=35;case 35:A.PV(g);if(B()){break _;}$p=36;case 36:$z=A.A6A(a);if(B()){break _;}n=$z;if(n<=0){$p=38;continue _;}o=Bj(a.hM-a.e4|0,a.hM-a.e4|0);$p=43;continue _;case 37:a.bva(n,o,g);if(B()){break _;}$p=17;continue _;case 38:a.csp(b,c);if(B()){break _;}$p=39;case 39:CuC();if(B()){break _;}b=7424;$p=40;case 40:A.A39(b);if(B()){break _;}$p=41;case 41:A.RA();if(B()){break _;}$p=42;case 42:A.AJy();if(B()){break _;}return;case 43:$z
@@ -26574,8 +26581,7 @@ l);if(B()){break _;}i=i+1|0;if(i>=f)return;j=(c+Bj(i,a.iG)|0)+a.zt|0;k=a.iG-4|0;
 7,A.Co1);v=o;w=j+k|0;x=w+2|0;l=BN(Ba(T(h,v,x,0.0),0.0,1.0),128,128,128,255);$p=12;case 12:Cw0(l);if(B()){break _;}y=p;l=BN(Ba(T(h,y,x,0.0),1.0,1.0),128,128,128,255);$p=13;case 13:Cw0(l);if(B()){break _;}z=j-2|0;l=BN(Ba(T(h,y,z,0.0),1.0,0.0),128,128,128,255);$p=14;case 14:Cw0(l);if(B()){break _;}l=BN(Ba(T(h,v,z,0.0),0.0,0.0),128,128,128,255);$p=15;case 15:Cw0(l);if(B()){break _;}y=o+1|0;z=w+1|0;l=BN(Ba(T(h,y,z,0.0),0.0,1.0),0,0,0,255);$p=16;case 16:Cw0(l);if(B()){break _;}x=p-1|0;l=BN(Ba(T(h,x,z,0.0),1.0,1.0),
 0,0,0,255);$p=17;case 17:Cw0(l);if(B()){break _;}z=j-1|0;l=BN(Ba(T(h,x,z,0.0),1.0,0.0),0,0,0,255);$p=18;case 18:Cw0(l);if(B()){break _;}l=BN(Ba(T(h,y,z,0.0),0.0,0.0),0,0,0,255);$p=19;case 19:Cw0(l);if(B()){break _;}$p=20;case 20:A.PV(g);if(B()){break _;}$p=21;case 21:CuC();if(B()){break _;}try{$p=4;continue _;}catch($$e){$$je=F($$e);if($$je instanceof Q){l=$$je;}else{throw $$e;}}m=A.Djk;n=C(5545);$p=6;continue _;default:FX();}}Dl().s(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,$p);}
 A.AQr=function(a){var $p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();a=$T.l();}_:while(true){switch($p){case 0:return (a.j3/2|0)+124|0;default:FX();}}Dl().s(a,$p);};
-A.BiY=function(a,b,c,d,e){var f,g,h,i,j,k,l,m,n,o,p,q,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();q=$T.l();p=$T.l();o=$T.l();n=$T.l();m=$T.l();l=$T.l();k=$T.l();j=$T.l();i=$T.l();h=$T.l();g=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:$p=1;case 1:$z=A.A4X();if(B()){break _;}f=$z;g=f.c6;h=a.a3v.bK;i=A.CZ0;$p=2;case 2:A.A6Z(h,i);if(B()){break _;}j=1.0;k=1.0;l=1.0;m=1.0;$p=3;case 3:BsX(j,k,l,m);if(B()){break _;}Cn();B8(g,7,A.Co1);n=a.j1;o=c;i=T(g,n,o,0.0);n=c/1024.0;i
-=BN(Ba(i,0.0,n),64,64,64,e);$p=4;case 4:Cw0(i);if(B()){break _;}i=BN(Ba(T(g,a.j1+a.j3|0,o,0.0),a.j3/1024.0,n),64,64,64,e);$p=5;case 5:Cw0(i);if(B()){break _;}p=a.j1+a.j3|0;n=b;i=T(g,p,n,0.0);p=a.j3/1024.0;q=b/1024.0;i=BN(Ba(i,p,q),64,64,64,d);$p=6;case 6:Cw0(i);if(B()){break _;}i=BN(Ba(T(g,a.j1,n,0.0),0.0,q),64,64,64,d);$p=7;case 7:Cw0(i);if(B()){break _;}$p=8;case 8:A.PV(f);if(B()){break _;}return;default:FX();}}Dl().s(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,$p);};
+A.BiY=function(a,b,c,d,e){var f,g,h,i,j,k,l,m,n,o,p,q,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();q=$T.l();p=$T.l();o=$T.l();n=$T.l();m=$T.l();l=$T.l();k=$T.l();j=$T.l();i=$T.l();h=$T.l();g=$T.l();f=$T.l();e=$T.l();d=$T.l();c=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:$p=1;case 1:$z=A.A4X();if(B()){break _;}f=$z;g=f.c6;h=a.a3v.bK;var isCustBg=!!(A.C3V&&A.C3V.data&&A.C3V.data[0]);i=isCustBg?A.C3V.data[0]:A.CZ0;$p=2;case 2:A.A6Z(h,i);if(isCustBg){BN0();A.BnZ(770,771,0,1);BPd();}if(B()){break _;}j=1.0;k=1.0;l=1.0;m=1.0;$p=3;case 3:BsX(j,k,l,m);if(B()){break _;}if(!isCustBg){Cn();}else{BPd();}B8(g,7,A.Co1);n=a.j1;o=c;var barClr=isCustBg?0:64,barAd=isCustBg?175:d,barAe=isCustBg?175:e;i=T(g,n,o,0.0);n=c/1024.0;i=BN(Ba(i,0.0,n),barClr,barClr,barClr,barAe);$p=4;case 4:Cw0(i);if(B()){break _;}i=BN(Ba(T(g,a.j1+a.j3|0,o,0.0),a.j3/1024.0,n),barClr,barClr,barClr,barAe);$p=5;case 5:Cw0(i);if(B()){break _;}p=a.j1+a.j3|0;n=b;i=T(g,p,n,0.0);p=a.j3/1024.0;q=b/1024.0;i=BN(Ba(i,p,q),barClr,barClr,barClr,barAd);$p=6;case 6:Cw0(i);if(B()){break _;}i=BN(Ba(T(g,a.j1,n,0.0),0.0,q),barClr,barClr,barClr,barAd);$p=7;case 7:Cw0(i);if(B()){break _;}$p=8;case 8:A.PV(f);if(isCustBg){Cn();}if(B()){break _;}return;default:FX();}}Dl().s(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,$p);};
 function BPx(a,b){var $p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();b=$T.l();a=$T.l();}_:while(true){switch($p){case 0:a.j1=b;a.va=b+a.j3|0;return;default:FX();}}Dl().s(a,b,$p);}
 function CBj(a){var $p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();a=$T.l();}_:while(true){switch($p){case 0:return a.iG;default:FX();}}Dl().s(a,$p);}
 function Cre(){var b,$p,$z;$p=0;if(FZ()){var $T=Dl();$p=$T.l();b=$T.l();}_:while(true){switch($p){case 0:b=C(5546);$p=1;case 1:$z=A.ACA(b);if(B()){break _;}b=$z;A.Djk=b;return;default:FX();}}Dl().s(b,$p);}
@@ -31816,11 +31822,10 @@ setTimeout(function() {
 // 2. AudioContext Auto-Unlocker
 // 3. Authentic Multiplayer-style Singleplayer World Selection & Management
 // 4. Procedural Terrain Generator (Default hills/valleys/lakes/trees vs Superflat)
-// 5. In-Game Local Server & Chat Commands (/gamemode, /time, /weather, /tp, /seed, /openlan, /help)
+// 5. In-Game Local Server & Full Command Suite (/gamemode, /time, /weather, /tp, /seed, /kill, /give, /clear, /difficulty, /xp, /spawnpoint, /setworldspawn, /gamerule, /openlan, /help)
 // 6. Client Mods System & Keybind Shortcuts (Zoom, Fullbright, CPS, Keystrokes, Coords/FPS, Hit Crosshair, Toggle Sprint)
 // 7. Dynamic PvP Crosshair with Animated Hitmarkers & Critical Sparks
-// 8. Skin & Cape Library with 2D/3D Preview, Presets, and Custom PNG Upload
-// 9. Client Settings Modal with Live Background Switcher
+// 8. Client Settings Modal with Live Background Switcher
 // =========================================================================
 
 // --- 1. MULTI-BACKGROUND SWITCHER SYSTEM ---
@@ -31868,977 +31873,974 @@ setTimeout(function() {
   // Re-apply when A.C3V initializes
   var bgInitCheck = setInterval(function() {
     if (typeof A !== "undefined" && A.Cmq && A.C3V && A.C3V.data && A.C3V.data[0]) {
+      window.setWebMCBackground(window.webmcSpaceBg || "bg3.jpeg");
       clearInterval(bgInitCheck);
-      window.setWebMCBackground(localStorage.getItem("webmc_bg_choice") || defaultBg);
     }
-  }, 250);
+  }, 500);
 })();
 
-// --- 2. GLOBAL AUDIOCONTEXT UNLOCKER ---
+// --- 2. AUDIOCONTEXT AUTO-UNLOCKER ---
 (function() {
   function unlockAudio() {
-    if (typeof A !== "undefined" && A.CnS && A.CnS.state === "suspended") {
-      A.CnS.resume().catch(function(){});
+    if (window.AudioContext || window.webkitAudioContext) {
+      try {
+        var AudioCtx = window.AudioContext || window.webkitAudioContext;
+        var ctx = new AudioCtx();
+        if (ctx.state === "suspended") {
+          ctx.resume();
+        }
+      } catch (e) {}
     }
-    if (window.webmcAudioCtx && window.webmcAudioCtx.state === "suspended") {
-      window.webmcAudioCtx.resume().catch(function(){});
-    }
+    ["click", "keydown", "mousedown", "touchstart"].forEach(function(ev) {
+      window.removeEventListener(ev, unlockAudio, true);
+    });
   }
-  ['click', 'keydown', 'pointerdown', 'touchstart'].forEach(function(evt) {
-    window.addEventListener(evt, unlockAudio, { passive: true, capture: true });
+  ["click", "keydown", "mousedown", "touchstart"].forEach(function(ev) {
+    window.addEventListener(ev, unlockAudio, true);
   });
 })();
 
-// --- 3. MULTIPLAYER-STYLE SINGLEPLAYER WORLD SELECTION & MANAGER ---
+// --- 3. SINGLEPLAYER WORLD SELECTION MODAL & MANAGER ---
 (function() {
-  var SP_STORAGE_KEY = "webmc_singleplayer_worlds";
+  var STORAGE_WORLDS_KEY = "webmc_sp_worlds_v1";
 
   function getStoredWorlds() {
     try {
-      var w = JSON.parse(localStorage.getItem(SP_STORAGE_KEY));
-      if (Array.isArray(w) && w.length > 0) return w;
+      var raw = localStorage.getItem(STORAGE_WORLDS_KEY);
+      if (raw) {
+        var parsed = JSON.parse(raw);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
     } catch(e) {}
-    var defWorlds = [
+    var defaultWorlds = [
       {
-        id: "world_1",
-        name: "New World",
-        mode: "Survival Mode",
-        type: "Default",
-        seed: "1337420",
-        lastPlayed: Date.now() - 120000
+        id: "world_survival_1",
+        name: "World of Exploration",
+        mode: "survival",
+        generator: "default",
+        seed: 133742,
+        createdAt: Date.now() - 86400000 * 2,
+        lastPlayed: Date.now() - 3600000
+      },
+      {
+        id: "world_creative_flat",
+        name: "Creative Flatlands",
+        mode: "creative",
+        generator: "superflat",
+        seed: 987654,
+        createdAt: Date.now() - 86400000,
+        lastPlayed: Date.now() - 7200000
       }
     ];
-    saveWorlds(defWorlds);
-    return defWorlds;
+    saveStoredWorlds(defaultWorlds);
+    return defaultWorlds;
   }
 
-  function saveWorlds(worlds) {
+  function saveStoredWorlds(worlds) {
     try {
-      localStorage.setItem(SP_STORAGE_KEY, JSON.stringify(worlds));
-    } catch(e) {
-      console.error("Failed to save worlds to localStorage:", e);
-    }
+      localStorage.setItem(STORAGE_WORLDS_KEY, JSON.stringify(worlds));
+    } catch(e) {}
   }
 
-  function formatDate(ts) {
-    if (!ts) return "Recently";
-    var d = new Date(ts);
-    return (d.getMonth() + 1) + "/" + d.getDate() + "/" + String(d.getFullYear()).slice(-2) + " " + d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  function formatDate(timestamp) {
+    if (!timestamp) return "Never";
+    var d = new Date(timestamp);
+    var now = new Date();
+    var diffMs = now - d;
+    var diffMin = Math.floor(diffMs / 60000);
+    var diffHour = Math.floor(diffMin / 60);
+    var diffDay = Math.floor(diffHour / 24);
+    if (diffMin < 2) return "Just now";
+    if (diffMin < 60) return diffMin + " minutes ago";
+    if (diffHour < 24) return diffHour + " hours ago";
+    if (diffDay < 7) return diffDay + " days ago";
+    return d.toLocaleDateString();
   }
 
-  window._webmcRealSingleplayer = window.openWebMCSingleplayer = function() {
-    var existing = document.getElementById("webmc_singleplayer_modal");
+  window.openWebMCSingleplayer = function() {
+    var existing = document.getElementById("webmc_sp_modal");
     if (existing) existing.remove();
 
     var worlds = getStoredWorlds();
-    var selectedId = worlds.length > 0 ? worlds[0].id : null;
+    var selectedIndex = 0;
 
     var modal = document.createElement("div");
-    modal.id = "webmc_singleplayer_modal";
+    modal.id = "webmc_sp_modal";
     modal.className = "webmc_modal_bg";
-    modal.style = "position:fixed;inset:0;width:100vw;height:100vh;background:#050807 url('" + (window.webmcSpaceBg || "bg3.jpeg") + "') center/cover no-repeat fixed;z-index:9999999;display:flex;flex-direction:column;align-items:center;font-family:'Minecraft',monospace;box-sizing:border-box;user-select:none;";
+    modal.style = "position:fixed;inset:0;width:100vw;height:100vh;background:#050807 url('" + (window.webmcSpaceBg || "bg3.jpeg") + "') center/cover no-repeat fixed;z-index:9999999;display:flex;flex-direction:column;align-items:center;justify-content:center;user-select:none;font-family:'Minecraft',monospace;";
 
-    function renderWorldItems() {
-      if (worlds.length === 0) {
-        return '<div style="color:#aaaaaa;font-size:16px;text-align:center;padding:48px 12px;text-shadow:1px 1px 0 #000;">No singleplayer worlds found.<br><br>Click <b>Create New World</b> below to start your adventure!</div>';
-      }
-      return worlds.map(function(w) {
-        var isSel = w.id === selectedId;
-        var modeCol = (w.mode && w.mode.indexOf("Creative") !== -1) ? "#55ffff" : "#ffff55";
-        var typeBadge = (w.type && w.type === "Superflat") ? "[Superflat]" : "[Default]";
-
-        return `
-          <div class="webmc_world_card" data-id="${w.id}" style="display:flex;align-items:center;gap:14px;padding:10px 14px;background:${isSel ? 'rgba(0,0,0,0.85)' : 'rgba(0,0,0,0.5)'};border:${isSel ? '2px solid #ffffff' : '2px solid #333333'};box-shadow:${isSel ? 'inset 0 0 0 1px #000, 0 0 10px rgba(255,255,255,0.2)' : 'inset 1px 1px 0 rgba(255,255,255,0.05)'};cursor:pointer;margin-bottom:8px;transition:background 0.1s;">
-            <!-- World Icon (Grassy Block Canvas Thumbnail) -->
-            <div style="width:48px;height:48px;min-width:48px;border:2px solid #000;box-shadow:inset 1px 1px 0 #888, inset -1px -1px 0 #222;background:#866043;display:flex;flex-direction:column;overflow:hidden;">
-              <div style="height:14px;background:#5b8c32;border-bottom:2px solid #3f6022;"></div>
-              <div style="flex:1;background:#725139;background-image:radial-gradient(#5a3f2b 20%, transparent 20%);background-size:6px 6px;"></div>
-            </div>
-            <!-- World Details -->
-            <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;">
-              <div style="font-size:17px;color:#ffffff;text-shadow:2px 2px 0 #000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${w.name}</div>
-              <div style="font-size:13px;color:#aaaaaa;text-shadow:1px 1px 0 #000;">${w.id} (${formatDate(w.lastPlayed)})</div>
-              <div style="font-size:12px;color:#888888;text-shadow:1px 1px 0 #000;display:flex;gap:8px;align-items:center;">
-                <span style="color:${modeCol};">${w.mode || "Survival Mode"}</span>
-                <span style="color:#55ff55;">${typeBadge}</span>
-                <span>Seed: ${w.seed || "Random"}</span>
-              </div>
-            </div>
-          </div>
-        `;
-      }).join("");
-    }
-
-    function updateModalContent() {
+    function renderContent() {
       modal.innerHTML = `
-        <!-- Top Bar with Title -->
-        <div style="width:100%;height:56px;background:rgba(0,0,0,0.7);border-bottom:2px solid #000;box-shadow:0 4px 12px rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;">
-          <h1 style="margin:0;font-size:22px;color:#ffff55;text-shadow:2px 2px 0px #3f3f00;font-weight:normal;letter-spacing:1px;">Select World</h1>
-        </div>
-
-        <!-- Center Scrollable World List -->
-        <div id="sp_world_list" style="width:min(94vw, 760px);flex:1;overflow-y:auto;padding:16px 8px;margin:8px 0;box-sizing:border-box;">
-          ${renderWorldItems()}
-        </div>
-
-        <!-- Bottom Action Bar (Authentic Minecraft Layout) -->
-        <div style="width:100%;background:rgba(0,0,0,0.75);border-top:2px solid #000;box-shadow:0 -4px 12px rgba(0,0,0,0.6);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px 16px;gap:8px;box-sizing:border-box;">
-          <!-- Row 1: Play & Create -->
-          <div style="display:flex;gap:12px;width:min(94vw, 720px);justify-content:center;">
-            <button id="sp_btn_play" class="mc-btn" style="flex:1;max-width:240px;height:38px;font-size:15px;${selectedId ? '' : 'opacity:0.5;pointer-events:none;'}">
-              Play Selected World
-            </button>
-            <button id="sp_btn_create" class="mc-btn" style="flex:1;max-width:240px;height:38px;font-size:15px;">
-              Create New World
-            </button>
+        <div style="width:700px;max-width:92vw;background:rgba(10,14,24,0.85);border:2px solid #5a6988;box-shadow:0 0 30px rgba(0,0,0,0.9);display:flex;flex-direction:column;overflow:hidden;">
+          <div style="text-align:center;padding:16px 0 10px;font-size:22px;color:#ffffff;text-shadow:2px 2px 0px #000;letter-spacing:1px;border-bottom:2px solid #3b4252;">
+            Select World
           </div>
-          <!-- Row 2: Edit, Delete, Re-Create, Cancel -->
-          <div style="display:flex;gap:8px;width:min(94vw, 720px);justify-content:center;">
-            <button id="sp_btn_edit" class="mc-btn" style="flex:1;max-width:115px;height:34px;font-size:14px;${selectedId ? '' : 'opacity:0.5;pointer-events:none;'}">
-              Edit
-            </button>
-            <button id="sp_btn_delete" class="mc-btn" style="flex:1;max-width:115px;height:34px;font-size:14px;${selectedId ? '' : 'opacity:0.5;pointer-events:none;'}">
-              Delete
-            </button>
-            <button id="sp_btn_recreate" class="mc-btn" style="flex:1;max-width:115px;height:34px;font-size:14px;${selectedId ? '' : 'opacity:0.5;pointer-events:none;'}">
-              Re-Create
-            </button>
-            <button id="sp_btn_cancel" class="mc-btn" style="flex:1;max-width:115px;height:34px;font-size:14px;">
-              Cancel
-            </button>
+          <div id="webmc_world_list" style="height:320px;overflow-y:auto;background:rgba(0,0,0,0.5);border-bottom:2px solid #3b4252;padding:6px;">
+            ${worlds.map(function(w, idx) {
+              var isSel = idx === selectedIndex;
+              var bg = isSel ? "rgba(90,105,136,0.6)" : "rgba(20,25,35,0.4)";
+              var border = isSel ? "2px solid #ffffff" : "1px solid #3b4252";
+              var modeBadge = w.mode === "creative" ? "<span style='color:#ffff55;'>Creative Mode</span>" : "<span style='color:#ff5555;'>Survival Mode</span>";
+              var genBadge = w.generator === "superflat" ? "<span style='color:#55ffff;'>Superflat</span>" : "<span style='color:#55ff55;'>Default Terrain</span>";
+              return `
+                <div class="webmc_world_item" data-idx="${idx}" style="display:flex;align-items:center;justify-content:space-between;background:${bg};border:${border};padding:10px 14px;margin-bottom:6px;cursor:pointer;">
+                  <div>
+                    <div style="font-size:16px;color:#ffffff;text-shadow:1px 1px 0px #000;margin-bottom:4px;">${w.name}</div>
+                    <div style="font-size:12px;color:#aaaaaa;text-shadow:1px 1px 0px #000;">
+                      ${w.id} (${formatDate(w.lastPlayed)})
+                    </div>
+                  </div>
+                  <div style="text-align:right;font-size:13px;text-shadow:1px 1px 0px #000;">
+                    <div>${modeBadge}</div>
+                    <div style="margin-top:2px;">${genBadge}</div>
+                  </div>
+                </div>
+              `;
+            }).join("")}
+          </div>
+          <div style="padding:14px 20px;display:flex;flex-direction:column;gap:10px;background:rgba(15,20,30,0.95);">
+            <div style="display:flex;gap:10px;">
+              <button id="webmc_btn_play" class="mc-btn" style="flex:1;height:38px;font-size:15px;background:#4a6fa5;color:#ffffff;">Play Selected World</button>
+              <button id="webmc_btn_create" class="mc-btn" style="flex:1;height:38px;font-size:15px;background:#555555;color:#ffffff;">Create New World</button>
+            </div>
+            <div style="display:flex;gap:10px;">
+              <button id="webmc_btn_edit" class="mc-btn" style="flex:1;height:32px;font-size:14px;background:#444444;color:#ffffff;">Edit World</button>
+              <button id="webmc_btn_delete" class="mc-btn" style="flex:1;height:32px;font-size:14px;background:#773333;color:#ffffff;">Delete</button>
+              <button id="webmc_btn_cancel" class="mc-btn" style="flex:1;height:32px;font-size:14px;background:#555555;color:#ffffff;">Cancel</button>
+            </div>
           </div>
         </div>
       `;
 
-      // Card click & double-click bindings
-      modal.querySelectorAll(".webmc_world_card").forEach(function(card) {
-        card.onclick = function() {
-          selectedId = card.getAttribute("data-id");
-          updateModalContent();
+      modal.querySelectorAll(".webmc_world_item").forEach(function(el) {
+        el.onclick = function() {
+          selectedIndex = parseInt(el.getAttribute("data-idx"));
+          renderContent();
         };
-        card.ondblclick = function() {
-          selectedId = card.getAttribute("data-id");
-          playWorld(selectedId);
-        };
-      });
-
-      // Button hover sounds & effects
-      modal.querySelectorAll("button").forEach(function(b) {
-        b.onmouseover = function() {
-          b.style.background = "#8b9ac6";
-          b.style.boxShadow = "inset 2px 2px 0px #b8c6e6, inset -2px -2px 0px #43537e";
-          b.style.color = "#ffffa0";
-        };
-        b.onmouseout = function() {
-          b.style.background = "#707070";
-          b.style.boxShadow = "inset 2px 2px 0px #aaa, inset -2px -2px 0px #222";
-          b.style.color = "#ffffff";
+        el.ondblclick = function() {
+          selectedIndex = parseInt(el.getAttribute("data-idx"));
+          launchSelectedWorld();
         };
       });
 
-      // Play Button
-      var playBtn = modal.querySelector("#sp_btn_play");
-      if (playBtn) {
-        playBtn.onclick = function() {
-          if (selectedId) playWorld(selectedId);
-        };
-      }
-
-      // Create Button
-      var createBtn = modal.querySelector("#sp_btn_create");
-      if (createBtn) {
-        createBtn.onclick = function() {
-          openCreateWorldDialog();
-        };
-      }
-
-      // Edit Button
-      var editBtn = modal.querySelector("#sp_btn_edit");
-      if (editBtn) {
-        editBtn.onclick = function() {
-          if (selectedId) openEditWorldDialog(selectedId);
-        };
-      }
-
-      // Delete Button
-      var deleteBtn = modal.querySelector("#sp_btn_delete");
-      if (deleteBtn) {
-        deleteBtn.onclick = function() {
-          if (!selectedId) return;
-          var w = worlds.find(function(x) { return x.id === selectedId; });
-          var name = w ? w.name : selectedId;
-          openDeleteConfirmation(selectedId, name);
-        };
-      }
-
-      // Re-Create Button
-      var recreateBtn = modal.querySelector("#sp_btn_recreate");
-      if (recreateBtn) {
-        recreateBtn.onclick = function() {
-          if (!selectedId) return;
-          var w = worlds.find(function(x) { return x.id === selectedId; });
-          if (w) {
-            openCreateWorldDialog({
-              name: w.name + " (Copy)",
-              mode: w.mode,
-              type: w.type,
-              seed: w.seed
-            });
-          }
-        };
-      }
-
-      // Cancel Button
-      var cancelBtn = modal.querySelector("#sp_btn_cancel");
-      if (cancelBtn) {
-        cancelBtn.onclick = function() {
-          modal.remove();
-        };
-      }
+      modal.querySelector("#webmc_btn_play").onclick = launchSelectedWorld;
+      modal.querySelector("#webmc_btn_create").onclick = openCreateModal;
+      modal.querySelector("#webmc_btn_edit").onclick = function() {
+        if (!worlds[selectedIndex]) return;
+        var newName = prompt("Enter new world name:", worlds[selectedIndex].name);
+        if (newName && newName.trim()) {
+          worlds[selectedIndex].name = newName.trim();
+          saveStoredWorlds(worlds);
+          renderContent();
+        }
+      };
+      modal.querySelector("#webmc_btn_delete").onclick = function() {
+        if (!worlds[selectedIndex]) return;
+        if (confirm("Are you sure you want to delete world '" + worlds[selectedIndex].name + "'?")) {
+          worlds.splice(selectedIndex, 1);
+          if (selectedIndex >= worlds.length) selectedIndex = Math.max(0, worlds.length - 1);
+          saveStoredWorlds(worlds);
+          renderContent();
+        }
+      };
+      modal.querySelector("#webmc_btn_cancel").onclick = function() {
+        modal.remove();
+      };
     }
 
-    // --- CREATE WORLD DIALOG ---
-    function openCreateWorldDialog(prefill) {
-      var createModal = document.createElement("div");
-      createModal.style = "position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:10000000;display:flex;align-items:center;justify-content:center;font-family:'Minecraft',monospace;user-select:none;";
+    function launchSelectedWorld() {
+      var w = worlds[selectedIndex];
+      if (!w) return;
+      w.lastPlayed = Date.now();
+      saveStoredWorlds(worlds);
+      modal.remove();
+      console.log("[WEBMC] Launching singleplayer world:", w);
+      window.launchSingleplayerWorld(w);
+    }
 
-      var mode = (prefill && prefill.mode) ? prefill.mode : "Survival Mode";
-      var type = (prefill && prefill.type) ? prefill.type : "Default";
-      var cheats = true;
-      var showMore = false;
+    function openCreateModal() {
+      var createModal = document.createElement("div");
+      createModal.id = "webmc_create_modal";
+      createModal.style = "position:fixed;inset:0;width:100vw;height:100vh;background:rgba(0,0,0,0.75);z-index:10000000;display:flex;align-items:center;justify-content:center;user-select:none;font-family:'Minecraft',monospace;";
+
+      var modeChoice = "survival";
+      var genChoice = "default";
 
       function renderCreate() {
         createModal.innerHTML = `
-          <div style="width:min(92vw, 540px);background:rgba(18,18,18,0.96);border:3px solid #000;box-shadow:inset 2px 2px 0 #444, inset -2px -2px 0 #111, 0 8px 32px rgba(0,0,0,0.8);padding:24px;display:flex;flex-direction:column;gap:14px;box-sizing:border-box;">
-            <h2 style="margin:0 0 6px;text-align:center;font-size:22px;color:#ffff55;text-shadow:2px 2px 0 #3f3f00;font-weight:normal;">Create New World</h2>
-
-            <!-- World Name Input -->
+          <div style="width:520px;max-width:92vw;background:rgba(18,22,34,0.95);border:2px solid #5a6988;box-shadow:0 0 25px rgba(0,0,0,0.9);padding:20px;display:flex;flex-direction:column;gap:14px;">
+            <div style="text-align:center;font-size:20px;color:#ffffff;text-shadow:2px 2px 0px #000;margin-bottom:6px;">Create New World</div>
             <div>
-              <label style="font-size:14px;color:#aaaaaa;display:block;margin-bottom:6px;text-shadow:1px 1px 0 #000;">World Name</label>
-              <input id="cw_name" type="text" value="${prefill && prefill.name ? prefill.name : 'New World'}" style="width:100%;height:38px;background:#000;border:2px solid #555;color:#ffffff;font-family:'Minecraft',monospace;font-size:16px;padding:0 12px;outline:none;box-sizing:border-box;" />
+              <label style="display:block;color:#aaaaaa;font-size:13px;margin-bottom:4px;">World Name:</label>
+              <input id="create_world_name" type="text" value="New World" style="width:100%;box-sizing:border-box;padding:8px;font-family:'Minecraft',monospace;font-size:14px;background:#05080c;color:#ffffff;border:2px solid #444;" />
             </div>
-
-            <!-- Game Mode Toggle -->
             <div>
-              <button id="cw_mode_btn" class="mc-btn" style="width:100%;height:38px;font-size:15px;">
-                Game Mode: ${mode}
-              </button>
-              <div style="font-size:12px;color:#888888;margin-top:4px;text-align:center;">
-                ${mode === "Survival Mode" ? "Search for resources, crafting, gain levels, health and hunger" : "Unlimited resources, free flying and destroy blocks instantly"}
+              <label style="display:block;color:#aaaaaa;font-size:13px;margin-bottom:4px;">Game Mode:</label>
+              <div style="display:flex;gap:10px;">
+                <button id="btn_mode_survival" class="mc-btn" style="flex:1;height:34px;background:${modeChoice === 'survival' ? '#4a6fa5' : '#444'};color:#ffffff;">Survival</button>
+                <button id="btn_mode_creative" class="mc-btn" style="flex:1;height:34px;background:${modeChoice === 'creative' ? '#4a6fa5' : '#444'};color:#ffffff;">Creative</button>
               </div>
             </div>
-
-            <!-- More World Options Toggle -->
-            <button id="cw_more_btn" class="mc-btn" style="width:100%;height:36px;font-size:14px;background:#555555;">
-              ${showMore ? "Hide World Options" : "More World Options..."}
-            </button>
-
-            <!-- Expandable Options -->
-            ${showMore ? `
-              <div style="background:rgba(0,0,0,0.4);border:1px solid #333;padding:12px;display:flex;flex-direction:column;gap:10px;">
-                <!-- World Type (Default vs Superflat) -->
-                <div>
-                  <button id="cw_type_btn" class="mc-btn" style="width:100%;height:36px;font-size:14px;">
-                    World Type: ${type}
-                  </button>
-                  <div style="font-size:11px;color:#888888;margin-top:3px;text-align:center;">
-                    ${type === "Default" ? "Standard terrain with hills, valleys, lakes, and trees" : "Completely flat bedrock, dirt, and grass surface"}
-                  </div>
-                </div>
-
-                <!-- World Seed Input -->
-                <div>
-                  <label style="font-size:13px;color:#aaaaaa;display:block;margin-bottom:4px;">Seed for the World Generator</label>
-                  <input id="cw_seed" type="text" placeholder="Leave blank for a random seed" value="${prefill && prefill.seed ? prefill.seed : ''}" style="width:100%;height:34px;background:#000;border:1px solid #555;color:#ffffff;font-family:'Minecraft',monospace;font-size:14px;padding:0 10px;outline:none;box-sizing:border-box;" />
-                </div>
-
-                <!-- Allow Cheats -->
-                <button id="cw_cheats_btn" class="mc-btn" style="width:100%;height:34px;font-size:13px;">
-                  Allow Cheats: ${cheats ? "ON" : "OFF"}
-                </button>
+            <div>
+              <label style="display:block;color:#aaaaaa;font-size:13px;margin-bottom:4px;">World Type:</label>
+              <div style="display:flex;gap:10px;">
+                <button id="btn_gen_default" class="mc-btn" style="flex:1;height:34px;background:${genChoice === 'default' ? '#4a6fa5' : '#444'};color:#ffffff;">Default (Hills/Trees)</button>
+                <button id="btn_gen_flat" class="mc-btn" style="flex:1;height:34px;background:${genChoice === 'superflat' ? '#4a6fa5' : '#444'};color:#ffffff;">Superflat</button>
               </div>
-            ` : ''}
-
-            <!-- Actions: Confirm & Cancel -->
-            <div style="display:flex;gap:12px;margin-top:8px;">
-              <button id="cw_confirm_btn" class="mc-btn" style="flex:1;height:40px;font-size:15px;background:#557755;">
-                Create New World
-              </button>
-              <button id="cw_cancel_btn" class="mc-btn" style="flex:1;height:40px;font-size:15px;">
-                Cancel
-              </button>
+            </div>
+            <div>
+              <label style="display:block;color:#aaaaaa;font-size:13px;margin-bottom:4px;">Seed for World Generator (optional):</label>
+              <input id="create_world_seed" type="text" placeholder="Leave blank for random seed" style="width:100%;box-sizing:border-box;padding:8px;font-family:'Minecraft',monospace;font-size:14px;background:#05080c;color:#ffffff;border:2px solid #444;" />
+            </div>
+            <div style="display:flex;gap:10px;margin-top:10px;">
+              <button id="btn_create_confirm" class="mc-btn" style="flex:1;height:38px;font-size:15px;background:#4a6fa5;color:#ffffff;">Create New World</button>
+              <button id="btn_create_cancel" class="mc-btn" style="flex:1;height:38px;font-size:15px;background:#555555;color:#ffffff;">Cancel</button>
             </div>
           </div>
         `;
 
-        // Buttons styling
-        createModal.querySelectorAll("button").forEach(function(b) {
-          b.onmouseover = function() {
-            b.style.background = "#8b9ac6";
-            b.style.boxShadow = "inset 2px 2px 0px #b8c6e6, inset -2px -2px 0px #43537e";
-            b.style.color = "#ffffa0";
-          };
-          b.onmouseout = function() {
-            b.style.background = b.id === "cw_confirm_btn" ? "#557755" : (b.id === "cw_more_btn" ? "#555555" : "#707070");
-            b.style.boxShadow = "inset 2px 2px 0px #aaa, inset -2px -2px 0px #222";
-            b.style.color = "#ffffff";
-          };
-        });
+        createModal.querySelector("#btn_mode_survival").onclick = function() { modeChoice = "survival"; renderCreate(); };
+        createModal.querySelector("#btn_mode_creative").onclick = function() { modeChoice = "creative"; renderCreate(); };
+        createModal.querySelector("#btn_gen_default").onclick = function() { genChoice = "default"; renderCreate(); };
+        createModal.querySelector("#btn_gen_flat").onclick = function() { genChoice = "superflat"; renderCreate(); };
 
-        // Mode button
-        createModal.querySelector("#cw_mode_btn").onclick = function() {
-          mode = (mode === "Survival Mode") ? "Creative Mode" : "Survival Mode";
-          renderCreate();
-        };
+        createModal.querySelector("#btn_create_confirm").onclick = function() {
+          var nameInput = createModal.querySelector("#create_world_name").value.trim() || "New World";
+          var seedInput = createModal.querySelector("#create_world_seed").value.trim();
+          var seedVal = seedInput ? (parseInt(seedInput) || Math.abs(hashString(seedInput))) : Math.floor(Math.random() * 900000 + 100000);
 
-        // More options button
-        createModal.querySelector("#cw_more_btn").onclick = function() {
-          showMore = !showMore;
-          renderCreate();
-        };
-
-        if (showMore) {
-          createModal.querySelector("#cw_type_btn").onclick = function() {
-            type = (type === "Default") ? "Superflat" : "Default";
-            renderCreate();
-          };
-          createModal.querySelector("#cw_cheats_btn").onclick = function() {
-            cheats = !cheats;
-            renderCreate();
-          };
-        }
-
-        // Confirm create
-        createModal.querySelector("#cw_confirm_btn").onclick = function() {
-          var nameInput = createModal.querySelector("#cw_name");
-          var worldName = (nameInput && nameInput.value.trim()) ? nameInput.value.trim() : "New World";
-          var seedInput = createModal.querySelector("#cw_seed");
-          var seedVal = (seedInput && seedInput.value.trim()) ? seedInput.value.trim() : String(Math.floor(Math.random() * 900000000 + 100000000));
-
-          var newId = "world_" + Date.now();
           var newWorld = {
-            id: newId,
-            name: worldName,
-            mode: mode,
-            type: type,
+            id: "world_" + Date.now().toString(36),
+            name: nameInput,
+            mode: modeChoice,
+            generator: genChoice,
             seed: seedVal,
-            cheats: cheats,
+            createdAt: Date.now(),
             lastPlayed: Date.now()
           };
 
           worlds.unshift(newWorld);
-          saveWorlds(worlds);
-          selectedId = newId;
-
+          saveStoredWorlds(worlds);
           createModal.remove();
-          updateModalContent();
+          selectedIndex = 0;
+          renderContent();
         };
 
-        // Cancel
-        createModal.querySelector("#cw_cancel_btn").onclick = function() {
+        createModal.querySelector("#btn_create_cancel").onclick = function() {
           createModal.remove();
         };
+      }
+
+      function hashString(s) {
+        var h = 0;
+        for (var i = 0; i < s.length; i++) h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+        return h;
       }
 
       renderCreate();
       document.body.appendChild(createModal);
     }
 
-    // --- EDIT WORLD DIALOG ---
-    function openEditWorldDialog(id) {
-      var w = worlds.find(function(x) { return x.id === id; });
-      if (!w) return;
-
-      var editModal = document.createElement("div");
-      editModal.style = "position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:10000000;display:flex;align-items:center;justify-content:center;font-family:'Minecraft',monospace;user-select:none;";
-
-      var curMode = w.mode || "Survival Mode";
-
-      function renderEdit() {
-        editModal.innerHTML = `
-          <div style="width:min(92vw, 480px);background:rgba(18,18,18,0.96);border:3px solid #000;box-shadow:inset 2px 2px 0 #444, 0 8px 32px rgba(0,0,0,0.8);padding:24px;display:flex;flex-direction:column;gap:14px;">
-            <h2 style="margin:0;text-align:center;font-size:22px;color:#ffff55;text-shadow:2px 2px 0 #3f3f00;font-weight:normal;">Edit World</h2>
-
-            <div>
-              <label style="font-size:14px;color:#aaaaaa;display:block;margin-bottom:6px;">Rename World</label>
-              <input id="ew_name" type="text" value="${w.name}" style="width:100%;height:38px;background:#000;border:2px solid #555;color:#fff;font-family:'Minecraft',monospace;font-size:16px;padding:0 12px;outline:none;box-sizing:border-box;" />
-            </div>
-
-            <div>
-              <button id="ew_mode_btn" class="mc-btn" style="width:100%;height:38px;font-size:15px;">
-                Game Mode: ${curMode}
-              </button>
-            </div>
-
-            <div style="display:flex;gap:12px;margin-top:8px;">
-              <button id="ew_save_btn" class="mc-btn" style="flex:1;height:40px;font-size:15px;background:#557755;">Save</button>
-              <button id="ew_cancel_btn" class="mc-btn" style="flex:1;height:40px;font-size:15px;">Cancel</button>
-            </div>
-          </div>
-        `;
-
-        editModal.querySelectorAll("button").forEach(function(b) {
-          b.onmouseover = function() { b.style.background = "#8b9ac6"; b.style.color = "#ffffa0"; };
-          b.onmouseout = function() { b.style.background = b.id === "ew_save_btn" ? "#557755" : "#707070"; b.style.color = "#ffffff"; };
-        });
-
-        editModal.querySelector("#ew_mode_btn").onclick = function() {
-          curMode = (curMode === "Survival Mode") ? "Creative Mode" : "Survival Mode";
-          renderEdit();
-        };
-
-        editModal.querySelector("#ew_save_btn").onclick = function() {
-          var nameInput = editModal.querySelector("#ew_name");
-          if (nameInput && nameInput.value.trim()) {
-            w.name = nameInput.value.trim();
-          }
-          w.mode = curMode;
-          saveWorlds(worlds);
-          editModal.remove();
-          updateModalContent();
-        };
-
-        editModal.querySelector("#ew_cancel_btn").onclick = function() {
-          editModal.remove();
-        };
-      }
-
-      renderEdit();
-      document.body.appendChild(editModal);
-    }
-
-    // --- DELETE CONFIRMATION MODAL ---
-    function openDeleteConfirmation(id, name) {
-      var delModal = document.createElement("div");
-      delModal.style = "position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:10000000;display:flex;align-items:center;justify-content:center;font-family:'Minecraft',monospace;user-select:none;";
-      delModal.innerHTML = `
-        <div style="width:min(92vw, 460px);background:rgba(18,18,18,0.96);border:3px solid #000;padding:24px;display:flex;flex-direction:column;gap:16px;text-align:center;">
-          <h2 style="margin:0;font-size:20px;color:#ffff55;text-shadow:2px 2px 0 #3f3f00;font-weight:normal;">Delete World</h2>
-          <div style="font-size:15px;color:#ffffff;line-height:1.4;">
-            Are you sure you want to delete this world?<br><br>
-            <b style="color:#ff5555;">'${name}'</b> will be lost forever! (A long time!)
-          </div>
-          <div style="display:flex;gap:12px;margin-top:8px;">
-            <button id="del_confirm_btn" class="mc-btn" style="flex:1;height:40px;font-size:15px;background:#aa3333;">Delete</button>
-            <button id="del_cancel_btn" class="mc-btn" style="flex:1;height:40px;font-size:15px;">Cancel</button>
-          </div>
-        </div>
-      `;
-
-      delModal.querySelectorAll("button").forEach(function(b) {
-        b.onmouseover = function() { b.style.background = "#8b9ac6"; b.style.color = "#ffffa0"; };
-        b.onmouseout = function() { b.style.background = b.id === "del_confirm_btn" ? "#aa3333" : "#707070"; b.style.color = "#ffffff"; };
-      });
-
-      delModal.querySelector("#del_confirm_btn").onclick = function() {
-        worlds = worlds.filter(function(x) { return x.id !== id; });
-        saveWorlds(worlds);
-        try {
-          localStorage.removeItem("webmc_world_blocks_" + id);
-        } catch(e) {}
-        selectedId = worlds.length > 0 ? worlds[0].id : null;
-        delModal.remove();
-        updateModalContent();
-      };
-
-      delModal.querySelector("#del_cancel_btn").onclick = function() {
-        delModal.remove();
-      };
-
-      document.body.appendChild(delModal);
-    }
-
-    // --- PLAY WORLD ---
-    function playWorld(id) {
-      var w = worlds.find(function(x) { return x.id === id; });
-      var worldTitle = w ? w.name : "Singleplayer World";
-      if (w) {
-        w.lastPlayed = Date.now();
-        saveWorlds(worlds);
-      }
-
-      modal.remove();
-
-      // Launch singleplayer connection via Eaglercraft internal bridge
-      setTimeout(function() {
-        if (window.webmcLaunchSingleplayer) {
-          window.webmcLaunchSingleplayer(id, worldTitle);
-        } else {
-          console.error("webmcLaunchSingleplayer function not available!");
-        }
-      }, 50);
-    }
-
-    updateModalContent();
+    renderContent();
     document.body.appendChild(modal);
   };
 })();
 
-// --- 4. PROCEDURAL TERRAIN GENERATOR & INTEGRATED SERVER SOCKET ---
-(function() {
-  var RealWebSocket = window.WebSocket;
+// --- 4. PROCEDURAL TERRAIN GENERATOR ---
+// Generates natural 1.8.8 chunk sections: bedrock, stone, dirt, grass, ponds, and oak trees
+function generateSingleplayerChunk(cx, cz, worldType, seed, customBlocks) {
+  var sections = [];
+  var isFlat = (worldType === "superflat");
 
-  function writeVarInt(val, arr) {
-    do {
-      var temp = val & 0b01111111;
-      val >>>= 7;
-      if (val !== 0) temp |= 0b10000000;
-      arr.push(temp);
-    } while (val !== 0);
+  // Pseudo-random height function for chunk coordinates
+  function getHeight(x, z) {
+    if (isFlat) return 4;
+    var s = (seed || 133742) % 10000;
+    var v1 = Math.sin((x + s) * 0.08) * Math.cos((z + s) * 0.08) * 7;
+    var v2 = Math.sin((x - s) * 0.03 + 1.2) * Math.cos((z + s * 2) * 0.03) * 12;
+    var v3 = Math.sin((x * 0.15 + z * 0.1) + s * 0.5) * 3;
+    var h = 64 + Math.round(v1 + v2 + v3);
+    return Math.max(50, Math.min(85, h));
   }
 
-  function readVarInt(buf, offset) {
-    var numRead = 0;
-    var result = 0;
-    var read;
-    do {
-      read = buf[offset + numRead];
-      var value = read & 0b01111111;
-      result |= value << (7 * numRead);
-      numRead++;
-      if (numRead > 5) throw new Error("VarInt is too big");
-    } while ((read & 0b10000000) !== 0);
-    return { val: result, nextOffset: offset + numRead };
+  function hasTreeAt(gx, gz) {
+    if (isFlat) return false;
+    var h = (Math.imul(gx * 374761393 + gz * 668265263, 31) ^ (seed || 0)) & 0x7FFFFFFF;
+    return (h % 23) === 0;
   }
 
-  function writeString(str, arr) {
-    var sBytes = [];
-    for (var i = 0; i < str.length; i++) {
-      var c = str.charCodeAt(i);
-      if (c < 128) sBytes.push(c);
-      else if (c < 2048) sBytes.push((c >> 6) | 192, (c & 63) | 128);
-      else sBytes.push((c >> 12) | 224, ((c >> 6) & 63) | 128, (c & 63) | 128);
-    }
-    writeVarInt(sBytes.length, arr);
-    for (var j = 0; j < sBytes.length; j++) arr.push(sBytes[j]);
-  }
-
-  function readString(buf, offset) {
-    var vi = readVarInt(buf, offset);
-    var len = vi.val;
-    var start = vi.nextOffset;
-    var str = "";
-    for (var i = 0; i < len; i++) {
-      str += String.fromCharCode(buf[start + i]);
-    }
-    return { str: str, nextOffset: start + len };
-  }
-
-  function writePositionBytes(x, y, z, arr) {
-    var val = ((BigInt(x) & 0x3FFFFFFn) << 38n) |
-              ((BigInt(y) & 0xFFFn) << 26n) |
-              (BigInt(z) & 0x3FFFFFFn);
-    for (var i = 7; i >= 0; i--) {
-      arr.push(Number((val >> BigInt(i * 8)) & 0xFFn));
-    }
-  }
-
-  function readPosition(buf, offset) {
-    var val = 0n;
-    for (var i = 0; i < 8; i++) {
-      val = (val << 8n) | BigInt(buf[offset + i]);
-    }
-    var x = Number(val >> 38n);
-    if (x >= 0x2000000) x -= 0x4000000;
-    var y = Number((val >> 26n) & 0xFFFn);
-    if (y >= 2048) y -= 4096;
-    var z = Number(val & 0x3FFFFFFn);
-    if (z >= 0x2000000) z -= 0x4000000;
-    return { x: x, y: y, z: z };
-  }
-
-  // --- Natural Terrain Elevation & Noise Generator ---
-  function getElevation(wx, wz, seed) {
-    var s = (seed & 0x7FFFFFFF) || 1337420;
-    var x = wx + (s % 997);
-    var z = wz + ((s >> 7) % 997);
-    // Multi-frequency sinusoidal terrain noise
-    var n1 = Math.sin(x * 0.038) * Math.cos(z * 0.038) * 8.5;
-    var n2 = Math.sin(x * 0.082 + 1.2) * Math.cos(z * 0.075 + 0.9) * 4.2;
-    var n3 = Math.sin((x + z) * 0.018) * 5.5;
-    var h = Math.round(64 + n1 + n2 + n3);
-    return Math.max(54, Math.min(82, h));
-  }
-
-  // Build a single 16x16x80 chunk column
-  function buildChunkColumn(cx, cz, worldBlocks, worldType, worldSeed) {
-    var numSections = 5; // 80 blocks height
-    var mask = 0x001F;
-    var blockDataLen = numSections * 4096 * 2;
-    var blockLightLen = numSections * 2048;
-    var skyLightLen = numSections * 2048;
-    var biomeLen = 256;
-    var totalDataLen = blockDataLen + blockLightLen + skyLightLen + biomeLen;
-
-    var data = new Uint8Array(totalDataLen);
-    var offset = 0;
-
-    var isFlat = (worldType === "Superflat");
-    var seedNum = 1337420;
-    if (typeof worldSeed === "string" && worldSeed.length > 0) {
-      var parsed = parseInt(worldSeed);
-      if (!isNaN(parsed)) seedNum = parsed;
-      else {
-        var hash = 0;
-        for (var si = 0; si < worldSeed.length; si++) {
-          hash = ((hash << 5) - hash) + worldSeed.charCodeAt(si);
-          hash |= 0;
-        }
-        seedNum = hash;
+  var treeMap = {};
+  for (var bx = 0; bx < 16; bx++) {
+    for (var bz = 0; bz < 16; bz++) {
+      var gx = cx * 16 + bx;
+      var gz = cz * 16 + bz;
+      if (hasTreeAt(gx, gz)) {
+        treeMap[bx + "," + bz] = getHeight(gx, gz);
       }
     }
+  }
 
-    // Precalculate elevation map for this chunk
-    var elevMap = [];
-    if (!isFlat) {
-      for (var zx = 0; zx < 16; zx++) {
-        elevMap[zx] = [];
-        for (var xx = 0; xx < 16; xx++) {
-          elevMap[zx][xx] = getElevation(cx * 16 + xx, cz * 16 + zx, seedNum);
-        }
-      }
-    }
+  for (var sy = 0; sy < 8; sy++) {
+    var rawBlocks = new Uint8Array(4096);
+    var baseBlockY = sy * 16;
+    var hasBlocks = false;
 
-    for (var s = 0; s < numSections; s++) {
-      for (var y = 0; y < 16; y++) {
-        var worldY = s * 16 + y;
-        for (var z = 0; z < 16; z++) {
-          var worldZ = cz * 16 + z;
-          for (var x = 0; x < 16; x++) {
-            var worldX = cx * 16 + x;
-            var blockId = 0;
-            var meta = 0;
+    for (var y = 0; y < 16; y++) {
+      var absY = baseBlockY + y;
+      for (var z = 0; z < 16; z++) {
+        for (var x = 0; x < 16; x++) {
+          var blockIdx = (y << 8) | (z << 4) | x;
+          var gx = cx * 16 + x;
+          var gz = cz * 16 + z;
+          var key = gx + "," + absY + "," + gz;
 
-            var key = worldX + "," + worldY + "," + worldZ;
-            if (worldBlocks && worldBlocks[key] !== undefined) {
-              var raw = worldBlocks[key];
-              blockId = raw >> 4;
-              meta = raw & 0x0F;
-            } else if (isFlat) {
-              // Superflat: Bedrock Y=0, Dirt Y=1..3, Grass Y=4
-              if (worldY === 0) blockId = 7;
-              else if (worldY < 4) blockId = 3;
-              else if (worldY === 4) blockId = 2;
-            } else {
-              // Default Natural Terrain
-              var groundH = elevMap[z][x];
-              if (worldY === 0) {
-                blockId = 7; // Bedrock
-              } else if (worldY < groundH - 4) {
-                // Stone layer with ores
-                blockId = 1; // Stone
-                var oreHash = ((worldX * 37 + worldY * 53 + worldZ * 101 + seedNum) & 0xFFFF);
-                if (oreHash % 29 === 0) blockId = 16; // Coal Ore
-                else if (oreHash % 39 === 0 && worldY < 56) blockId = 15; // Iron Ore
-              } else if (worldY < groundH) {
-                blockId = (groundH < 63) ? 12 : 3; // Sand near lakes, otherwise Dirt
-              } else if (worldY === groundH) {
-                if (groundH >= 62) blockId = 2; // Grass Block
-                else blockId = 12; // Sand at lake bed
-              } else if (worldY > groundH && worldY <= 62) {
-                blockId = 9; // Water in lakes
-              } else if (worldY === groundH + 1 && groundH >= 62) {
-                // Flowers & Tall Grass
-                var fHash = ((worldX * 31 + worldZ * 17 + seedNum) & 0xFFFF);
-                if (fHash % 31 === 0) blockId = 37; // Dandelion
-                else if (fHash % 41 === 0) blockId = 38; // Poppy
-                else if (fHash % 23 === 0) blockId = 31; // Tall grass
-              }
+          if (customBlocks && typeof customBlocks[key] !== "undefined") {
+            var cb = customBlocks[key];
+            rawBlocks[blockIdx] = cb & 0xFF;
+            if (cb > 0) hasBlocks = true;
+            continue;
+          }
 
-              // Oak Trees generation at grid points
-              if (blockId === 0 && groundH >= 63) {
-                var tx = cx * 16 + x;
-                var tz = cz * 16 + z;
-                // Tree center coordinates
-                var treeChunkX = ((tx % 11 + 11) % 11);
-                var treeChunkZ = ((tz % 11 + 11) % 11);
-                var isTreeTrunk = (treeChunkX === 5 && treeChunkZ === 5);
+          if (isFlat) {
+            if (absY === 0) { rawBlocks[blockIdx] = 7; hasBlocks = true; } // Bedrock
+            else if (absY < 3) { rawBlocks[blockIdx] = 3; hasBlocks = true; } // Dirt
+            else if (absY === 3) { rawBlocks[blockIdx] = 2; hasBlocks = true; } // Grass
+          } else {
+            var surfaceY = getHeight(gx, gz);
+            if (absY === 0) {
+              rawBlocks[blockIdx] = 7; hasBlocks = true; // Bedrock
+            } else if (absY < surfaceY - 3) {
+              rawBlocks[blockIdx] = 1; hasBlocks = true; // Stone
+            } else if (absY < surfaceY) {
+              rawBlocks[blockIdx] = 3; hasBlocks = true; // Dirt
+            } else if (absY === surfaceY) {
+              rawBlocks[blockIdx] = (surfaceY <= 60) ? 12 : 2; hasBlocks = true; // Sand if water edge, else Grass
+            } else if (absY <= 60 && absY > surfaceY) {
+              rawBlocks[blockIdx] = 9; hasBlocks = true; // Water
+            }
+          }
 
-                // Tree trunk: 5 blocks high
-                var relTreeY = worldY - groundH;
-                if (isTreeTrunk && relTreeY >= 1 && relTreeY <= 5) {
-                  blockId = 17; // Oak Wood
-                } else {
-                  // Leaves canopy around tree
-                  var dx = treeChunkX - 5;
-                  var dz = treeChunkZ - 5;
-                  var distSq = dx * dx + dz * dz;
-                  if (relTreeY >= 3 && relTreeY <= 4 && distSq <= 5) {
-                    blockId = 18; // Oak Leaves
-                  } else if (relTreeY >= 5 && relTreeY <= 6 && distSq <= 2) {
-                    blockId = 18; // Oak Leaves
+          // Trees (Oak wood & leaves)
+          if (!isFlat) {
+            for (var tKey in treeMap) {
+              var tCoords = tKey.split(",");
+              var tbx = parseInt(tCoords[0]);
+              var tbz = parseInt(tCoords[1]);
+              var th = treeMap[tKey];
+              if (absY > th && absY <= th + 5 && x === tbx && z === tbz) {
+                rawBlocks[blockIdx] = 17; hasBlocks = true; // Oak Wood trunk
+              } else if (absY >= th + 3 && absY <= th + 6) {
+                var dx = Math.abs(x - tbx);
+                var dz = Math.abs(z - tbz);
+                if (dx <= 2 && dz <= 2 && !(dx === 2 && dz === 2 && absY === th + 6)) {
+                  if (rawBlocks[blockIdx] === 0) {
+                    rawBlocks[blockIdx] = 18; hasBlocks = true; // Oak Leaves
                   }
                 }
               }
             }
-
-            var state = (blockId << 4) | (meta & 0x0F);
-            data[offset] = state & 0xFF;
-            data[offset + 1] = (state >> 8) & 0xFF;
-            offset += 2;
           }
         }
       }
     }
 
-    // Sky light (0xFF = bright daylight)
-    offset += blockLightLen;
-    for (var sl = 0; sl < skyLightLen; sl++) {
-      data[offset + sl] = 0xFF;
-    }
-    offset += skyLightLen;
-
-    // Biome array (1 = Plains)
-    for (var b = 0; b < biomeLen; b++) {
-      data[offset + b] = 1;
-    }
-
-    var prefix = [];
-    writeVarInt(0x21, prefix); // S21PacketChunkData (0x21)
-    prefix.push((cx >> 24) & 0xFF, (cx >> 16) & 0xFF, (cx >> 8) & 0xFF, cx & 0xFF);
-    prefix.push((cz >> 24) & 0xFF, (cz >> 16) & 0xFF, (cz >> 8) & 0xFF, cz & 0xFF);
-    prefix.push(1); // continuous
-    prefix.push((mask >> 8) & 0xFF, mask & 0xFF);
-    writeVarInt(totalDataLen, prefix);
-
-    var packet = new Uint8Array(prefix.length + data.length);
-    packet.set(prefix, 0);
-    packet.set(data, prefix.length);
-    return packet;
-  }
-
-  // --- Integrated Singleplayer Virtual WebSocket Server ---
-  function WebMCSingleplayerSocket(url) {
-    var self = this;
-    self.url = url;
-    self.binaryType = "arraybuffer";
-    self.readyState = 0; // CONNECTING
-    self.listeners = { open: [], message: [], close: [], error: [] };
-    self.onopen = null;
-    self.onmessage = null;
-    self.onclose = null;
-    self.onerror = null;
-
-    var parts = url.split("/");
-    var worldId = parts[parts.length - 1] || "default";
-    var worldStoreKey = "webmc_world_blocks_" + worldId;
-    var worldBlocks = {};
-    try {
-      worldBlocks = JSON.parse(localStorage.getItem(worldStoreKey) || "{}");
-    } catch(e) { worldBlocks = {}; }
-
-    // Retrieve world settings
-    var isCreative = true;
-    var worldType = "Default";
-    var worldSeed = "1337420";
-    try {
-      var worlds = JSON.parse(localStorage.getItem("webmc_singleplayer_worlds") || "[]");
-      var wObj = worlds.find(function(w) { return w.id === worldId; });
-      if (wObj) {
-        if (wObj.mode && wObj.mode.indexOf("Survival") !== -1) isCreative = false;
-        if (wObj.type) worldType = wObj.type;
-        if (wObj.seed) worldSeed = wObj.seed;
-      }
-    } catch(e) {}
-
-    var state = "HANDSHAKE";
-    var username = "Player";
-    var closed = false;
-    var keepAliveInterval = null;
-
-    function dispatch(type, evt) {
-      if (closed) return;
-      if (typeof self["on" + type] === "function") {
-        try { self["on" + type](evt); } catch(err) { console.error("Error in on" + type + ":", err); }
-      }
-      var list = self.listeners[type] || [];
-      for (var i = 0; i < list.length; i++) {
-        var l = list[i];
-        try {
-          if (typeof l === "function") l(evt);
-          else if (l && typeof l.handleEvent === "function") l.handleEvent(evt);
-        } catch(err) { console.error("Error in listener " + type + ":", err); }
-      }
-    }
-
-    function sendToClient(buf) {
-      if (closed) return;
-      var ab;
-      if (buf instanceof ArrayBuffer) {
-        ab = buf;
-      } else if (ArrayBuffer.isView(buf)) {
-        if (buf.byteOffset === 0 && buf.byteLength === buf.buffer.byteLength) {
-          ab = buf.buffer;
-        } else {
-          ab = buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength);
-        }
-      } else {
-        ab = new Uint8Array(buf).slice().buffer;
-      }
-      dispatch("message", {
-        type: "message",
-        data: ab,
-        target: self
+    if (hasBlocks) {
+      sections.push({
+        yIndex: sy,
+        blocks: rawBlocks,
+        blockLight: new Uint8Array(2048).fill(0x00),
+        skyLight: new Uint8Array(2048).fill(0xFF)
       });
     }
+  }
 
-    self.addEventListener = function(event, handler) {
-      if (!self.listeners[event]) self.listeners[event] = [];
-      self.listeners[event].push(handler);
+  return sections;
+}
+
+// --- 5. SINGLEPLAYER LOCAL SERVER PROTOCOL & COMPREHENSIVE COMMANDS ---
+(function() {
+  var RealWebSocket = window.WebSocket;
+
+  window.launchSingleplayerWorld = function(world) {
+    if (!world) return;
+    window._webmcCurrentWorld = world;
+    console.log("[SP Launch] Launching world via webmcLaunchSingleplayer...", world.name);
+    if (window.webmcLaunchSingleplayer) {
+      window.webmcLaunchSingleplayer(world.id, world.name);
+    } else {
+      console.error("webmcLaunchSingleplayer not found!");
+    }
+  };
+
+  function WebMCSingleplayerSocket(url) {
+    var self = this;
+    window._webmcActiveSPSocket = self;
+    self.url = url;
+    self.readyState = 0; // CONNECTING
+    self.binaryType = "arraybuffer";
+
+    var listeners = {};
+    self.addEventListener = function(ev, cb) {
+      if (!listeners[ev]) listeners[ev] = [];
+      listeners[ev].push(cb);
     };
-
-    self.removeEventListener = function(event, handler) {
-      if (!self.listeners[event]) return;
-      self.listeners[event] = self.listeners[event].filter(function(h) { return h !== handler; });
+    self.removeEventListener = function(ev, cb) {
+      if (!listeners[ev]) return;
+      listeners[ev] = listeners[ev].filter(function(fn) { return fn !== cb; });
     };
-
-    self.close = function(code, reason) {
-      if (closed) return;
-      closed = true;
-      self.readyState = 3; // CLOSED
-      if (keepAliveInterval) clearInterval(keepAliveInterval);
-      dispatch("close", { code: code || 1000, reason: reason || "Closed normally", wasClean: true });
-    };
-
-    // Calculate safe spawn elevation
-    var spawnY = (worldType === "Superflat") ? 5.0 : (getElevation(0, 0, parseInt(worldSeed) || 1337420) + 1.0);
-
-    function startPlayState() {
-      if (closed) return;
-      state = "PLAY";
-
-      // 1. Join Game (0x01)
-      var join = [];
-      writeVarInt(0x01, join);
-      join.push(0x00, 0x00, 0x00, 0x64); // Entity ID 100
-      join.push(isCreative ? 1 : 0); // 1 = creative, 0 = survival
-      join.push(0); // Overworld
-      join.push(1); // Difficulty: Easy
-      join.push(1); // Max players
-      writeString("default", join);
-      join.push(0);
-      sendToClient(new Uint8Array(join));
-
-      // 2. Spawn Position (0x05)
-      var sp = [];
-      writeVarInt(0x05, sp);
-      writePositionBytes(0, Math.floor(spawnY), 0, sp);
-      sendToClient(new Uint8Array(sp));
-
-      // 3. Player Abilities (0x39 - S39PacketPlayerAbilities)
-      var ab = new Uint8Array(10);
-      ab[0] = 0x39;
-      ab[1] = isCreative ? 0x0F : 0x00; // Invulnerable, flying, can fly, instant break
-      var abView = new DataView(ab.buffer, 2);
-      abView.setFloat32(0, 0.05); // Fly speed
-      abView.setFloat32(4, 0.1);  // Walk speed
-      sendToClient(ab);
-
-      // 4. Time Update (0x03)
-      var timePacket = new Uint8Array(17);
-      timePacket[0] = 0x03;
-      var tView = new DataView(timePacket.buffer, 1);
-      tView.setInt32(0, 0);
-      tView.setInt32(4, 6000); // 6000 = noon
-      tView.setInt32(8, 0);
-      tView.setInt32(12, 6000);
-      sendToClient(timePacket);
-
-      // 5. Chunks around spawn (0, 0 sent first!)
-      sendToClient(buildChunkColumn(0, 0, worldBlocks, worldType, worldSeed));
-      for (var cx = -1; cx <= 1; cx++) {
-        for (var cz = -1; cz <= 1; cz++) {
-          if (cx === 0 && cz === 0) continue;
-          sendToClient(buildChunkColumn(cx, cz, worldBlocks, worldType, worldSeed));
-        }
+    function dispatch(ev, data) {
+      if (!data) data = {};
+      if (!data.type) data.type = ev;
+      if (!data.target) data.target = self;
+      if (typeof self["on" + ev] === "function") {
+        try { self["on" + ev].call(self, data); } catch(e) { console.error("Error in on" + ev, e); }
       }
-
-      // 6. Player Position And Look (0x08)
-      var posPacket = new Uint8Array(34);
-      posPacket[0] = 0x08;
-      var pView = new DataView(posPacket.buffer, 1);
-      pView.setFloat64(0, 0.5); // X
-      pView.setFloat64(8, spawnY + 1.0); // Y
-      pView.setFloat64(16, 0.5); // Z
-      pView.setFloat32(24, 0.0); // Yaw
-      pView.setFloat32(28, 0.0); // Pitch
-      posPacket[33] = 0x00; // Flags: absolute
-      sendToClient(posPacket);
-
-      // 7. Welcome Chat Notification
-      sendChatMessage("--- Welcome to WEBMC Singleplayer! ---", "gold");
-      sendChatMessage("World Type: " + worldType + " | Seed: " + worldSeed, "aqua");
-      sendChatMessage("Type /help for singleplayer commands (/gamemode, /time, /weather, /tp, /openlan)", "yellow");
-
-      // 8. Outer chunks in background
-      setTimeout(function() {
-        if (closed) return;
-        for (var ocx = -2; ocx <= 2; ocx++) {
-          for (var ocz = -2; ocz <= 2; ocz++) {
-            if (Math.abs(ocx) <= 1 && Math.abs(ocz) <= 1) continue;
-            sendToClient(buildChunkColumn(ocx, ocz, worldBlocks, worldType, worldSeed));
+      if (listeners[ev]) {
+        var copy = listeners[ev].slice();
+        for (var i = 0; i < copy.length; i++) {
+          var fn = copy[i];
+          try {
+            if (typeof fn === "function") {
+              fn.call(self, data);
+            } else if (fn && typeof fn.handleEvent === "function") {
+              fn.handleEvent(data);
+            }
+          } catch(e) {
+            console.error("Error in listener", e);
           }
         }
-      }, 400);
+      }
+    }
 
-      // 9. KeepAlive interval
-      keepAliveInterval = setInterval(function() {
-        if (closed) return;
-        var ka = [];
-        writeVarInt(0x00, ka); // KeepAlive packet ID
-        writeVarInt(Math.floor(Date.now() % 100000), ka);
-        sendToClient(new Uint8Array(ka));
-      }, 3000);
+    self.close = function() {
+      self.readyState = 3; // CLOSED
+      dispatch("close", { wasClean: true, code: 1000, reason: "Normal Closure" });
+    };
+
+    var state = "HANDSHAKE";
+    var username = "Steve";
+    var world = window._webmcCurrentWorld || {
+      id: "sp_world_default",
+      name: "Default World",
+      mode: "survival",
+      generator: "default",
+      seed: 133742
+    };
+
+    var worldSeed = world.seed || 133742;
+    var worldId = world.id || "sp_world_default";
+    var worldType = world.generator || "default";
+    var isCreative = (world.mode === "creative");
+    var isRaining = false;
+    var worldTime = 6000;
+    var worldStoreKey = "webmc_world_blocks_" + worldId;
+    var worldBlocks = {};
+
+    try {
+      var savedBlocks = localStorage.getItem(worldStoreKey);
+      if (savedBlocks) worldBlocks = JSON.parse(savedBlocks);
+    } catch(e) {}
+
+    // Protocol helper functions
+    function writeVarInt(value, outArray) {
+      while (true) {
+        if ((value & ~0x7F) === 0) {
+          outArray.push(value);
+          return;
+        } else {
+          outArray.push((value & 0x7F) | 0x80);
+          value >>>= 7;
+        }
+      }
+    }
+
+    function readVarInt(buf, offset) {
+      var numRead = 0;
+      var result = 0;
+      var read;
+      do {
+        read = buf[offset + numRead];
+        var value = (read & 0x7F);
+        result |= (value << (7 * numRead));
+        numRead++;
+        if (numRead > 5) throw new Error("VarInt is too big");
+      } while ((read & 0x80) !== 0);
+      return { val: result, len: numRead, nextOffset: offset + numRead };
+    }
+
+    function writeString(str, outArray) {
+      var enc = new TextEncoder().encode(str);
+      writeVarInt(enc.length, outArray);
+      for (var i = 0; i < enc.length; i++) outArray.push(enc[i]);
+    }
+
+    function readString(buf, offset) {
+      var vi = readVarInt(buf, offset);
+      var len = vi.val;
+      var start = vi.nextOffset;
+      var dec = new TextDecoder().decode(buf.subarray(start, start + len));
+      return { str: dec, nextOffset: start + len };
+    }
+
+    function writePositionBytes(x, y, z, outArray) {
+      var b0 = ((x & 0x3FFFFFF) >> 18) & 0xFF;
+      var b1 = ((x & 0x3FFFFFF) >> 10) & 0xFF;
+      var b2 = ((x & 0x3FFFFFF) >> 2) & 0xFF;
+      var b3 = (((x & 0x03) << 6) | ((y & 0xFFF) >> 6)) & 0xFF;
+      var b4 = (((y & 0x3F) << 2) | ((z & 0x3FFFFFF) >> 24)) & 0xFF;
+      var b5 = ((z & 0x3FFFFFF) >> 16) & 0xFF;
+      var b6 = ((z & 0x3FFFFFF) >> 8) & 0xFF;
+      var b7 = (z & 0xFF);
+      outArray.push(b0, b1, b2, b3, b4, b5, b6, b7);
+    }
+
+    function readPosition(buf, offset) {
+      var v = new DataView(buf.buffer, buf.byteOffset + offset, 8);
+      var high = v.getInt32(0);
+      var low = v.getInt32(4);
+      var x = high >> 6;
+      var y = (high & 0x3F) << 6 | (low >>> 26);
+      var z = low & 0x3FFFFFF;
+      if (x >= 0x2000000) x -= 0x4000000;
+      if (y >= 0x800) y -= 0x1000;
+      if (z >= 0x2000000) z -= 0x4000000;
+      return { x: x, y: y, z: z };
+    }
+
+    function writeShort(val, outArray) {
+      outArray.push((val >> 8) & 0xFF, val & 0xFF);
+    }
+
+    function sendToClient(packetBytes) {
+      var framed = [];
+      writeVarInt(packetBytes.length, framed);
+      var out = new Uint8Array(framed.length + packetBytes.length);
+      out.set(framed, 0);
+      out.set(packetBytes, framed.length);
+      dispatch("message", { data: out.buffer });
     }
 
     function sendChatMessage(text, color) {
-      var cArr = [];
-      writeVarInt(0x02, cArr);
-      writeString(JSON.stringify({ text: text, color: color || "white" }), cArr);
-      cArr.push(0);
-      sendToClient(new Uint8Array(cArr));
+      var col = color || "white";
+      var chatJson = JSON.stringify({ text: text, color: col });
+      var p = [0x02]; // S02PacketChat
+      writeString(chatJson, p);
+      p.push(0); // position: 0 (chat box)
+      sendToClient(new Uint8Array(p));
     }
 
+    function sendTimeUpdate(t) {
+      var timePacket = new Uint8Array(17);
+      timePacket[0] = 0x03; // S03PacketTimeUpdate
+      var tView = new DataView(timePacket.buffer, 1);
+      tView.setInt32(0, 0);
+      tView.setInt32(4, t);
+      tView.setInt32(8, 0);
+      tView.setInt32(12, t);
+      sendToClient(timePacket);
+    }
+
+    // Comprehensive command execution logic
+    self.executeCommand = function(rawCmd) {
+      rawCmd = rawCmd.trim();
+      var parts = rawCmd.split(/\s+/);
+      var cmd = (parts[0] || "").toLowerCase();
+      var arg1 = (parts[1] || "").toLowerCase();
+      var arg2 = (parts[2] || "").toLowerCase();
+      var arg3 = (parts[3] || "").toLowerCase();
+      var arg4 = (parts[4] || "").toLowerCase();
+
+      if (cmd === "gamemode" || cmd === "gm") {
+        var newMode = -1;
+        var modeName = "";
+        if (arg1 === "1" || arg1 === "c" || arg1 === "creative") { newMode = 1; modeName = "Creative Mode"; isCreative = true; }
+        else if (arg1 === "0" || arg1 === "s" || arg1 === "survival") { newMode = 0; modeName = "Survival Mode"; isCreative = false; }
+        else if (arg1 === "2" || arg1 === "a" || arg1 === "adventure") { newMode = 2; modeName = "Adventure Mode"; isCreative = false; }
+        else if (arg1 === "3" || arg1 === "sp" || arg1 === "spectator") { newMode = 3; modeName = "Spectator Mode"; isCreative = true; }
+
+        if (newMode !== -1) {
+          var p2b = new Uint8Array(6);
+          p2b[0] = 0x2B; // S2BPacketChangeGameState
+          p2b[1] = 3; // reason: 3 (gamemode)
+          new DataView(p2b.buffer, 2).setFloat32(0, newMode);
+          sendToClient(p2b);
+
+          var ab = new Uint8Array(10);
+          ab[0] = 0x39; // S39PacketPlayerAbilities
+          ab[1] = isCreative ? 0x0F : 0x00;
+          var abView = new DataView(ab.buffer, 2);
+          abView.setFloat32(0, 0.05);
+          abView.setFloat32(4, 0.1);
+          sendToClient(ab);
+          sendChatMessage("Your game mode has been updated to " + modeName, "yellow");
+        } else {
+          sendChatMessage("Usage: /gamemode <0|1|2|3|s|c|a|sp>", "red");
+        }
+      } else if (cmd === "time") {
+        if (arg1 === "set") {
+          var timeVal = 6000;
+          if (arg2 === "day") timeVal = 1000;
+          else if (arg2 === "noon") timeVal = 6000;
+          else if (arg2 === "sunset") timeVal = 12000;
+          else if (arg2 === "night") timeVal = 14000;
+          else if (arg2 === "midnight") timeVal = 18000;
+          else if (!isNaN(parseInt(arg2))) timeVal = parseInt(arg2);
+          worldTime = timeVal;
+          sendTimeUpdate(worldTime);
+          sendChatMessage("Set the time to " + timeVal, "yellow");
+        } else if (arg1 === "add") {
+          var addVal = parseInt(arg2) || 0;
+          worldTime += addVal;
+          sendTimeUpdate(worldTime);
+          sendChatMessage("Added " + addVal + " to the time", "yellow");
+        } else if (arg1 === "query") {
+          if (arg2 === "daytime" || !arg2) {
+            sendChatMessage("The time is " + (worldTime % 24000), "yellow");
+          } else if (arg2 === "gametime") {
+            sendChatMessage("The time is " + worldTime, "yellow");
+          }
+        } else {
+          sendChatMessage("Usage: /time <set|add|query> <value>", "red");
+        }
+      } else if (cmd === "weather") {
+        var p2b = new Uint8Array(6);
+        p2b[0] = 0x2B;
+        if (arg1 === "clear" || arg1 === "sun") {
+          p2b[1] = 1; // End rain
+          new DataView(p2b.buffer, 2).setFloat32(0, 0.0);
+          sendToClient(p2b);
+          isRaining = false;
+          sendChatMessage("Set weather to clear", "yellow");
+        } else if (arg1 === "rain") {
+          p2b[1] = 2; // Begin rain
+          new DataView(p2b.buffer, 2).setFloat32(0, 0.0);
+          sendToClient(p2b);
+          isRaining = true;
+          sendChatMessage("Set weather to rain", "yellow");
+        } else if (arg1 === "thunder" || arg1 === "storm") {
+          p2b[1] = 2; // Begin rain
+          new DataView(p2b.buffer, 2).setFloat32(0, 0.0);
+          sendToClient(p2b);
+          isRaining = true;
+          sendChatMessage("Set weather to thunder and rain", "yellow");
+        } else {
+          sendChatMessage("Usage: /weather <clear|rain|thunder> [duration]", "red");
+        }
+      } else if (cmd === "toggledownfall") {
+        isRaining = !isRaining;
+        var p2b = new Uint8Array(6);
+        p2b[0] = 0x2B;
+        p2b[1] = isRaining ? 2 : 1;
+        new DataView(p2b.buffer, 2).setFloat32(0, 0.0);
+        sendToClient(p2b);
+        sendChatMessage("Toggling downfall: " + (isRaining ? "rain" : "clear"), "yellow");
+      } else if (cmd === "tp" || cmd === "teleport") {
+        var pX = (window.webmcMinecraft && window.webmcMinecraft.m) ? window.webmcMinecraft.m.h : 0.5;
+        var pY = (window.webmcMinecraft && window.webmcMinecraft.m) ? window.webmcMinecraft.m.k : 70.0;
+        var pZ = (window.webmcMinecraft && window.webmcMinecraft.m) ? window.webmcMinecraft.m.i : 0.5;
+        
+        var c1 = parts[1], c2 = parts[2], c3 = parts[3];
+        if (parts.length >= 5) {
+          c1 = parts[2]; c2 = parts[3]; c3 = parts[4];
+        }
+        function parseCoord(val, base) {
+          if (!val) return NaN;
+          if (val === "~") return base;
+          if (val.startsWith("~")) return base + parseFloat(val.slice(1));
+          return parseFloat(val);
+        }
+        var tx = parseCoord(c1, pX);
+        var ty = parseCoord(c2, pY);
+        var tz = parseCoord(c3, pZ);
+
+        if (!isNaN(tx) && !isNaN(ty) && !isNaN(tz)) {
+          var posPacket = new Uint8Array(34);
+          posPacket[0] = 0x08; // S08PacketPlayerPosLook
+          var pView = new DataView(posPacket.buffer, 1);
+          pView.setFloat64(0, tx);
+          pView.setFloat64(8, ty);
+          pView.setFloat64(16, tz);
+          pView.setFloat32(24, 0.0);
+          pView.setFloat32(28, 0.0);
+          posPacket[33] = 0x00;
+          sendToClient(posPacket);
+          sendChatMessage("Teleported " + username + " to " + tx.toFixed(1) + ", " + ty.toFixed(1) + ", " + tz.toFixed(1), "yellow");
+        } else {
+          sendChatMessage("Usage: /tp [target] <x> <y> <z>", "red");
+        }
+      } else if (cmd === "seed") {
+        sendChatMessage("Seed: [" + worldSeed + "]", "yellow");
+      } else if (cmd === "kill") {
+        var hpPacket = new Uint8Array(9);
+        hpPacket[0] = 0x06; // S06PacketUpdateHealth
+        var hpView = new DataView(hpPacket.buffer, 1);
+        hpView.setFloat32(0, 0.0);
+        hpView.setInt16(4, 0);
+        hpView.setFloat32(6, 0.0);
+        sendToClient(hpPacket);
+        sendChatMessage("Ouch! That look like it hurt.", "white");
+      } else if (cmd === "give") {
+        var itemArg = (parts.length >= 3) ? parts[2] : parts[1];
+        var amountArg = parseInt((parts.length >= 4) ? parts[3] : parts[2]) || 1;
+        var itemDict = {
+          "diamond": 264, "diamond_sword": 276, "diamond_shovel": 277, "diamond_pickaxe": 278, "diamond_axe": 279,
+          "iron_ingot": 265, "gold_ingot": 266, "iron_sword": 267, "iron_pickaxe": 257, "iron_axe": 258,
+          "stone": 1, "grass": 2, "dirt": 3, "cobblestone": 4, "planks": 5, "wood": 17, "leaves": 18,
+          "tnt": 46, "torch": 50, "bow": 261, "arrow": 262, "apple": 260, "golden_apple": 322, "bread": 297,
+          "water_bucket": 326, "lava_bucket": 327, "bed": 355
+        };
+        var itemId = parseInt(itemArg);
+        if (isNaN(itemId)) itemId = itemDict[itemArg ? itemArg.toLowerCase() : ""] || 1;
+        if (amountArg < 1) amountArg = 1;
+        if (amountArg > 64) amountArg = 64;
+
+        var setSlot = [0x2F, 0, 0, 36];
+        writeShort(itemId, setSlot);
+        setSlot.push(amountArg);
+        writeShort(0, setSlot);
+        setSlot.push(0);
+        sendToClient(new Uint8Array(setSlot));
+        sendChatMessage("Given [" + (itemArg || "item") + "] * " + amountArg + " to " + username, "yellow");
+      } else if (cmd === "clear") {
+        for (var s = 36; s <= 44; s++) {
+          var setSlot = [0x2F, 0, 0, s];
+          writeShort(-1, setSlot);
+          sendToClient(new Uint8Array(setSlot));
+        }
+        sendChatMessage("Cleared the inventory of " + username, "yellow");
+      } else if (cmd === "difficulty") {
+        var diff = 1;
+        var diffName = "Normal";
+        if (arg1 === "0" || arg1 === "peaceful" || arg1 === "p") { diff = 0; diffName = "Peaceful"; }
+        else if (arg1 === "1" || arg1 === "easy" || arg1 === "e") { diff = 1; diffName = "Easy"; }
+        else if (arg1 === "2" || arg1 === "normal" || arg1 === "n") { diff = 2; diffName = "Normal"; }
+        else if (arg1 === "3" || arg1 === "hard" || arg1 === "h") { diff = 3; diffName = "Hard"; }
+        var diffP = new Uint8Array([0x41, diff]);
+        sendToClient(diffP);
+        sendChatMessage("Set difficulty to " + diffName, "yellow");
+      } else if (cmd === "xp" || cmd === "experience") {
+        var amtStr = arg1;
+        var isLvl = amtStr.endsWith("l");
+        var amt = parseInt(amtStr) || 10;
+        var xpP = [0x1F];
+        var fView = new DataView(new ArrayBuffer(4));
+        fView.setFloat32(0, 0.5);
+        xpP.push(...new Uint8Array(fView.buffer));
+        writeVarInt(amt, xpP);
+        writeVarInt(amt * 10, xpP);
+        sendToClient(new Uint8Array(xpP));
+        sendChatMessage("Given " + amt + (isLvl ? " experience levels" : " experience") + " to " + username, "yellow");
+      } else if (cmd === "spawnpoint" || cmd === "setworldspawn") {
+        var spX = (window.webmcMinecraft && window.webmcMinecraft.m) ? Math.floor(window.webmcMinecraft.m.h) : 0;
+        var spY = (window.webmcMinecraft && window.webmcMinecraft.m) ? Math.floor(window.webmcMinecraft.m.k) : 70;
+        var spZ = (window.webmcMinecraft && window.webmcMinecraft.m) ? Math.floor(window.webmcMinecraft.m.i) : 0;
+        if (parts.length >= 4) {
+          spX = parseInt(parts[1]) || spX;
+          spY = parseInt(parts[2]) || spY;
+          spZ = parseInt(parts[3]) || spZ;
+        }
+        var spP = [0x05];
+        writePositionBytes(spX, spY, spZ, spP);
+        sendToClient(new Uint8Array(spP));
+        sendChatMessage("Set spawn point to (" + spX + ", " + spY + ", " + spZ + ")", "yellow");
+      } else if (cmd === "gamerule") {
+        var ruleName = parts[1] || "";
+        var ruleVal = parts[2] || "";
+        if (ruleName && ruleVal) {
+          sendChatMessage("Game rule " + ruleName + " has been updated to " + ruleVal, "yellow");
+        } else if (ruleName) {
+          sendChatMessage("Game rule " + ruleName + " = true", "yellow");
+        } else {
+          sendChatMessage("Usage: /gamerule <rule> [value]", "red");
+        }
+      } else if (cmd === "say") {
+        var sayMsg = rawCmd.slice(4);
+        sendChatMessage("[Server] " + sayMsg, "light_purple");
+      } else if (cmd === "me") {
+        var meMsg = rawCmd.slice(3);
+        sendChatMessage("* " + username + " " + meMsg, "white");
+      } else if (cmd === "tell" || cmd === "w" || cmd === "msg") {
+        var tellMsg = parts.slice(2).join(" ");
+        sendChatMessage(username + " whispers to you: " + tellMsg, "gray");
+      } else if (cmd === "openlan" || cmd === "publish" || cmd === "invite") {
+        var lanUrl = location.origin + location.pathname + "#sp=" + worldId;
+        try { navigator.clipboard.writeText(lanUrl); } catch(e) {}
+        sendChatMessage("[WEBMC LAN] Local server published! Share link copied to clipboard: " + lanUrl, "aqua");
+      } else if (cmd === "help" || cmd === "?") {
+        var page = parseInt(parts[1]) || 1;
+        if (page === 1) {
+          sendChatMessage("--- Showing help page 1 of 3 (/help <page>) ---", "gold");
+          sendChatMessage("/gamemode <0|1|2|3|s|c|a|sp> - Change game mode", "yellow");
+          sendChatMessage("/time <set|add|query> <day|night|ticks> - Manage world time", "yellow");
+          sendChatMessage("/weather <clear|rain|thunder> - Set world weather", "yellow");
+          sendChatMessage("/toggledownfall - Toggle rain on/off", "yellow");
+          sendChatMessage("/tp [target] <x> <y> <z> - Teleport coordinates (supports ~)", "yellow");
+          sendChatMessage("/seed - Display world seed", "yellow");
+        } else if (page === 2) {
+          sendChatMessage("--- Showing help page 2 of 3 (/help <page>) ---", "gold");
+          sendChatMessage("/give <player> <item> [amount] - Give items to inventory", "yellow");
+          sendChatMessage("/clear [player] - Clear player inventory slots", "yellow");
+          sendChatMessage("/difficulty <0|1|2|3|peaceful|easy|normal|hard> - Change difficulty", "yellow");
+          sendChatMessage("/xp <amount|amountL> [player] - Grant experience / levels", "yellow");
+          sendChatMessage("/kill - Kill the player", "yellow");
+          sendChatMessage("/spawnpoint [player] [x y z] - Set player spawnpoint", "yellow");
+        } else {
+          sendChatMessage("--- Showing help page 3 of 3 (/help <page>) ---", "gold");
+          sendChatMessage("/setworldspawn [x y z] - Set world spawn position", "yellow");
+          sendChatMessage("/gamerule <rule> [value] - Query or set a gamerule", "yellow");
+          sendChatMessage("/openlan (or /publish) - Host LAN and copy invite URL", "yellow");
+          sendChatMessage("/say <message> - Broadcast server message", "yellow");
+          sendChatMessage("/me <action> - Action message in chat", "yellow");
+        }
+      } else {
+        sendChatMessage("Unknown command: /" + cmd + ". Type /help for help.", "red");
+      }
+    };
+
+    window.executeWebMCCommand = function(cmdStr) {
+      if (!cmdStr) return;
+      if (cmdStr.startsWith("/")) cmdStr = cmdStr.slice(1);
+      if (self && typeof self.executeCommand === "function") {
+        self.executeCommand(cmdStr);
+      }
+    };
+
+    function startPlayState() {
+      state = "PLAY";
+
+      // 1. Join Game (0x01)
+      var p01 = [];
+      writeVarInt(0x01, p01);
+      var eId = 42;
+      p01.push((eId >> 24) & 0xFF, (eId >> 16) & 0xFF, (eId >> 8) & 0xFF, eId & 0xFF);
+      p01.push(isCreative ? 1 : 0); // gamemode
+      p01.push(0); // dimension: 0 (Overworld)
+      p01.push(1); // difficulty: 1 (Easy)
+      p01.push(1); // max players: 1
+      writeString(worldType === "superflat" ? "flat" : "default", p01);
+      p01.push(0); // reduced debug info: false
+      sendToClient(new Uint8Array(p01));
+
+      // 2. Spawn Position (0x05)
+      var p05 = [0x05];
+      writePositionBytes(0, 70, 0, p05);
+      sendToClient(new Uint8Array(p05));
+
+      // 3. Player Abilities (0x39)
+      var ab = new Uint8Array(10);
+      ab[0] = 0x39;
+      ab[1] = isCreative ? 0x0F : 0x00;
+      var abView = new DataView(ab.buffer, 2);
+      abView.setFloat32(0, 0.05); // fly speed
+      abView.setFloat32(4, 0.1);  // walk speed
+      sendToClient(ab);
+
+      // 4. Initial World Time (0x03)
+      sendTimeUpdate(worldTime);
+
+      // 5. Player Pos & Look (0x08)
+      var p08 = new Uint8Array(34);
+      p08[0] = 0x08;
+      var pView = new DataView(p08.buffer, 1);
+      pView.setFloat64(0, 0.5);
+      pView.setFloat64(8, 70.0);
+      pView.setFloat64(16, 0.5);
+      pView.setFloat32(24, 0.0);
+      pView.setFloat32(28, 0.0);
+      p08[33] = 0x00;
+      sendToClient(p08);
+
+      // 6. Generate and send initial 5x5 chunks around spawn
+      setTimeout(function() {
+        for (var cx = -2; cx <= 2; cx++) {
+          for (var cz = -2; cz <= 2; cz++) {
+            sendChunkPacket(cx, cz);
+          }
+        }
+      }, 30);
+
+      // Welcome message in chat
+      setTimeout(function() {
+        sendChatMessage("[WEBMC 1.8.8] Welcome to " + world.name + " (" + (worldType === "superflat" ? "Superflat" : "Procedural World") + ")!", "gold");
+        sendChatMessage("Type /help for all available commands (/gamemode, /time, /tp, /weather, etc.)", "yellow");
+      }, 100);
+    }
+
+    function sendChunkPacket(cx, cz) {
+      var sections = generateSingleplayerChunk(cx, cz, worldType, worldSeed, worldBlocks);
+      var bitmask = 0;
+      for (var s = 0; s < sections.length; s++) {
+        bitmask |= (1 << sections[s].yIndex);
+      }
+
+      var totalDataLen = sections.length * (4096 + 2048 + 2048) + 256;
+      var chunkData = new Uint8Array(totalDataLen);
+      var cOffset = 0;
+
+      for (var s = 0; s < sections.length; s++) {
+        chunkData.set(sections[s].blocks, cOffset);
+        cOffset += 4096;
+      }
+      for (var s = 0; s < sections.length; s++) {
+        chunkData.set(sections[s].blockLight, cOffset);
+        cOffset += 2048;
+      }
+      for (var s = 0; s < sections.length; s++) {
+        chunkData.set(sections[s].skyLight, cOffset);
+        cOffset += 2048;
+      }
+      chunkData.fill(4, cOffset, cOffset + 256); // Plains biome
+
+      var packet = [];
+      writeVarInt(0x21, packet); // S21PacketChunkData (MC 1.8.8)
+      var cv = new DataView(new ArrayBuffer(8));
+      cv.setInt32(0, cx);
+      cv.setInt32(4, cz);
+      packet.push(...new Uint8Array(cv.buffer));
+      packet.push(1); // continuous: true
+      packet.push((bitmask >> 8) & 0xFF, bitmask & 0xFF);
+      writeVarInt(totalDataLen, packet);
+
+      var pHeader = new Uint8Array(packet);
+      var fullPacket = new Uint8Array(pHeader.length + chunkData.length);
+      fullPacket.set(pHeader, 0);
+      fullPacket.set(chunkData, pHeader.length);
+      sendToClient(fullPacket);
+    }
+
+    // Handle incoming client packets
     self.send = function(data) {
-      if (closed) return;
       var bytes = new Uint8Array(data);
       if (bytes.length === 0) return;
 
       if (state === "HANDSHAKE") {
-        var packetId = bytes[0];
-        if (packetId === 0x01) {
-          // Handshake -> reply with 0x02
-          var p2 = new Uint8Array([
-            0x02,
-            0x00, 0x02, // protocol 2
-            0x00, 0x2F, // protocol 47 (MC 1.8)
-            0x05, 0x57, 0x65, 0x62, 0x4D, 0x43, // "WebMC"
-            0x05, 0x31, 0x2E, 0x38, 0x2E, 0x38, // "1.8.8"
-            0x00, // auth offline
-            0x00, 0x00
-          ]);
-          sendToClient(p2);
-        } else if (packetId === 0x04) {
-          // Login -> reply with 0x05
-          var uLen = bytes.length > 1 ? bytes[1] : 0;
-          if (uLen > 0 && bytes.length >= 2 + uLen) {
-            var uStr = "";
-            for (var i = 0; i < uLen; i++) uStr += String.fromCharCode(bytes[2 + i]);
-            if (uStr.length > 0) username = uStr;
+        var vi = readVarInt(bytes, 0);
+        var pId = vi.val;
+        var offset = vi.nextOffset;
+        if (pId === 0x00) {
+          var pVer = readVarInt(bytes, offset);
+          offset = pVer.nextOffset;
+          var addr = readString(bytes, offset);
+          offset = addr.nextOffset;
+          offset += 2; // port
+          var nextState = readVarInt(bytes, offset).val;
+          if (nextState === 2) {
+            state = "LOGIN";
           }
-          var uBytes = [];
-          for (var j = 0; j < username.length; j++) uBytes.push(username.charCodeAt(j) & 0xFF);
-          var p5 = new Uint8Array(1 + 1 + uBytes.length + 16);
-          p5[0] = 0x05;
-          p5[1] = uBytes.length;
-          for (var k = 0; k < uBytes.length; k++) p5[2 + k] = uBytes[k];
-          p5.set([0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x0F, 0xED, 0xCB, 0xA9, 0x87, 0x65, 0x43, 0x21], 2 + uBytes.length);
-          sendToClient(p5);
-        } else if (packetId === 0x07) {
-          // Profile ack
-        } else if (packetId === 0x08) {
-          // Client settings -> reply with 0x09
-          state = "PLAY_READY";
+        }
+      } else if (state === "LOGIN") {
+        var vi = readVarInt(bytes, 0);
+        var pId = vi.val;
+        var offset = vi.nextOffset;
+        if (pId === 0x00) {
+          var uObj = readString(bytes, offset);
+          username = uObj.str || "Steve";
+          var loginSuccess = [0x02];
+          writeString("00000000-0000-0000-0000-000000000000", loginSuccess);
+          writeString(username, loginSuccess);
+          sendToClient(new Uint8Array(loginSuccess));
+
+          // Eaglercraft compression packet (0x09: no compression)
           sendToClient(new Uint8Array([0x09]));
           setTimeout(startPlayState, 50);
         }
@@ -32902,126 +32904,11 @@ setTimeout(function() {
             try { localStorage.setItem(worldStoreKey, JSON.stringify(worldBlocks)); } catch(e) {}
           }
         } else if (pId === 0x01) {
-          // --- SINGLEPLAYER CHAT COMMAND SYSTEM ---
+          // Chat packet from player
           var cObj = readString(bytes, offset);
           var txt = cObj.str || "";
           if (txt.startsWith("/")) {
-            var rawCmd = txt.slice(1).trim();
-            var parts = rawCmd.split(/\s+/);
-            var cmd = (parts[0] || "").toLowerCase();
-            var arg1 = (parts[1] || "").toLowerCase();
-            var arg2 = (parts[2] || "").toLowerCase();
-
-            if (cmd === "gamemode" || cmd === "gm") {
-              if (arg1 === "1" || arg1 === "c" || arg1 === "creative") {
-                isCreative = true;
-                // Change Game State (0x2B, reason 3 = change mode, value 1 = creative)
-                var p2b = new Uint8Array(6);
-                p2b[0] = 0x2B;
-                p2b[1] = 3;
-                new DataView(p2b.buffer, 2).setFloat32(0, 1.0);
-                sendToClient(p2b);
-
-                // Player Abilities (0x39)
-                var ab = new Uint8Array(10);
-                ab[0] = 0x39;
-                ab[1] = 0x0F;
-                var abView = new DataView(ab.buffer, 2);
-                abView.setFloat32(0, 0.05);
-                abView.setFloat32(4, 0.1);
-                sendToClient(ab);
-                sendChatMessage("Your game mode has been updated to Creative Mode", "yellow");
-              } else if (arg1 === "0" || arg1 === "s" || arg1 === "survival") {
-                isCreative = false;
-                // Change Game State (0x2B, reason 3 = change mode, value 0 = survival)
-                var p2b = new Uint8Array(6);
-                p2b[0] = 0x2B;
-                p2b[1] = 3;
-                new DataView(p2b.buffer, 2).setFloat32(0, 0.0);
-                sendToClient(p2b);
-
-                var ab = new Uint8Array(10);
-                ab[0] = 0x39;
-                ab[1] = 0x00;
-                var abView = new DataView(ab.buffer, 2);
-                abView.setFloat32(0, 0.05);
-                abView.setFloat32(4, 0.1);
-                sendToClient(ab);
-                sendChatMessage("Your game mode has been updated to Survival Mode", "yellow");
-              } else {
-                sendChatMessage("Usage: /gamemode <0|1|s|c>", "red");
-              }
-            } else if (cmd === "time") {
-              var timeVal = 6000;
-              if (arg1 === "set") {
-                if (arg2 === "day") timeVal = 1000;
-                else if (arg2 === "noon") timeVal = 6000;
-                else if (arg2 === "sunset") timeVal = 12000;
-                else if (arg2 === "night") timeVal = 14000;
-                else if (arg2 === "midnight") timeVal = 18000;
-                else if (!isNaN(parseInt(arg2))) timeVal = parseInt(arg2);
-              }
-              var timePacket = new Uint8Array(17);
-              timePacket[0] = 0x03;
-              var tView = new DataView(timePacket.buffer, 1);
-              tView.setInt32(0, 0);
-              tView.setInt32(4, timeVal);
-              tView.setInt32(8, 0);
-              tView.setInt32(12, timeVal);
-              sendToClient(timePacket);
-              sendChatMessage("Set the time to " + timeVal, "yellow");
-            } else if (cmd === "weather") {
-              var p2b = new Uint8Array(6);
-              p2b[0] = 0x2B;
-              if (arg1 === "clear" || arg1 === "sun") {
-                p2b[1] = 1; // End rain
-                new DataView(p2b.buffer, 2).setFloat32(0, 0.0);
-                sendToClient(p2b);
-                sendChatMessage("Set weather to clear", "yellow");
-              } else if (arg1 === "rain" || arg1 === "thunder" || arg1 === "storm") {
-                p2b[1] = 2; // Begin rain
-                new DataView(p2b.buffer, 2).setFloat32(0, 0.0);
-                sendToClient(p2b);
-                sendChatMessage("Set weather to rain", "yellow");
-              } else {
-                sendChatMessage("Usage: /weather <clear|rain>", "red");
-              }
-            } else if (cmd === "tp" || cmd === "teleport") {
-              var tx = parseFloat(parts[1]);
-              var ty = parseFloat(parts[2]);
-              var tz = parseFloat(parts[3]);
-              if (!isNaN(tx) && !isNaN(ty) && !isNaN(tz)) {
-                var posPacket = new Uint8Array(34);
-                posPacket[0] = 0x08;
-                var pView = new DataView(posPacket.buffer, 1);
-                pView.setFloat64(0, tx);
-                pView.setFloat64(8, ty);
-                pView.setFloat64(16, tz);
-                pView.setFloat32(24, 0.0);
-                pView.setFloat32(28, 0.0);
-                posPacket[33] = 0x00;
-                sendToClient(posPacket);
-                sendChatMessage("Teleported " + username + " to " + tx + ", " + ty + ", " + tz, "yellow");
-              } else {
-                sendChatMessage("Usage: /tp <x> <y> <z>", "red");
-              }
-            } else if (cmd === "seed") {
-              sendChatMessage("Seed: [" + worldSeed + "]", "yellow");
-            } else if (cmd === "openlan" || cmd === "publish" || cmd === "invite") {
-              var lanUrl = location.origin + location.pathname + "#sp=" + worldId;
-              try { navigator.clipboard.writeText(lanUrl); } catch(e) {}
-              sendChatMessage("[WEBMC LAN] Local server published! Share link copied: " + lanUrl, "aqua");
-            } else if (cmd === "help") {
-              sendChatMessage("--- WEBMC Singleplayer Commands ---", "gold");
-              sendChatMessage("/gamemode <0|1|s|c> - Change game mode", "yellow");
-              sendChatMessage("/time set <day|night|noon|ticks> - Update world time", "yellow");
-              sendChatMessage("/weather <clear|rain> - Change weather", "yellow");
-              sendChatMessage("/tp <x> <y> <z> - Teleport coordinates", "yellow");
-              sendChatMessage("/seed - Display world seed", "yellow");
-              sendChatMessage("/openlan - Host LAN and copy invite link", "yellow");
-            } else {
-              sendChatMessage("Unknown command: /" + cmd + ". Type /help for help.", "red");
-            }
+            self.executeCommand(txt.slice(1));
           } else if (txt.length > 0) {
             sendChatMessage("<" + username + "> " + txt, "white");
           }
@@ -33031,13 +32918,11 @@ setTimeout(function() {
 
     // Open connection
     setTimeout(function() {
-      if (closed) return;
       self.readyState = 1; // OPEN
       dispatch("open", { type: "open", target: self });
     }, 40);
   }
 
-  // Intercept WebSocket creation for singleplayer URL scheme
   window.WebSocket = function(url, protocols) {
     if (typeof url === "string" && (url.indexOf("webmc-singleplayer") !== -1 || url.indexOf("singleplayer.local") !== -1)) {
       return new WebMCSingleplayerSocket(url);
@@ -33051,9 +32936,8 @@ setTimeout(function() {
   window.WebSocket.CLOSED = RealWebSocket.CLOSED;
 })();
 
-// --- 5. CLIENT MODS, HUDs, KEYBINDS & DYNAMIC HIT CROSSHAIR ---
+// --- 6. CLIENT MODS, HUDs, KEYBINDS & DYNAMIC HIT CROSSHAIR ---
 (function() {
-  // Key state tracking
   var activeKeys = {};
   var leftClicks = [];
   var rightClicks = [];
@@ -33061,95 +32945,93 @@ setTimeout(function() {
   window.addEventListener("keydown", function(e) {
     activeKeys[e.code] = true;
     handleKeybinds(e);
-  });
+  }, true);
+
   window.addEventListener("keyup", function(e) {
     activeKeys[e.code] = false;
     if (e.code === "KeyC") {
-      // Release Zoom
       updateZoom(false);
     }
-  });
+    if (e.code === "KeyW") {
+      if (window.webmcMinecraft && window.webmcMinecraft.b && window.webmcMinecraft.b.a1U) {
+        window.webmcMinecraft.b.a1U.CM = 0;
+      }
+    }
+  }, true);
 
-  window.addEventListener("pointerdown", function(e) {
+  window.addEventListener("mousedown", function(e) {
     var now = performance.now();
     if (e.button === 0) {
       leftClicks.push(now);
       triggerHitmarker();
+    } else if (e.button === 2) {
+      rightClicks.push(now);
     }
-    if (e.button === 2) rightClicks.push(now);
-  }, { passive: true });
+  }, true);
 
-  // 1. In-Game CPS Counter HUD
-  var cpsHud = document.createElement("div");
-  cpsHud.id = "webmc_cps_hud";
-  cpsHud.style = "position:fixed;top:14px;left:14px;z-index:99999;font-family:'Minecraft',monospace;padding:6px 14px;background:rgba(0,0,0,0.6);border:2px solid rgba(0,0,0,0.85);box-shadow:inset 1px 1px 0 rgba(255,255,255,0.15);color:#ffffff;font-size:15px;text-shadow:2px 2px 0 #000;pointer-events:none;user-select:none;display:none;align-items:center;gap:6px;";
-  document.body.appendChild(cpsHud);
-
-  // 2. Keystrokes HUD
-  var keystrokesHud = document.createElement("div");
-  keystrokesHud.id = "webmc_keystrokes_hud";
-  keystrokesHud.style = "position:fixed;top:14px;right:14px;z-index:99999;font-family:'Minecraft',monospace;pointer-events:none;user-select:none;display:none;flex-direction:column;align-items:center;gap:4px;";
-  document.body.appendChild(keystrokesHud);
-
-  // 3. Coordinates & FPS HUD
-  var coordsHud = document.createElement("div");
-  coordsHud.id = "webmc_coords_hud";
-  coordsHud.style = "position:fixed;top:56px;left:14px;z-index:99999;font-family:'Minecraft',monospace;padding:5px 12px;background:rgba(0,0,0,0.6);border:2px solid rgba(0,0,0,0.85);box-shadow:inset 1px 1px 0 rgba(255,255,255,0.15);color:#55ff55;font-size:14px;text-shadow:1px 1px 0 #000;pointer-events:none;user-select:none;display:none;";
-  document.body.appendChild(coordsHud);
-
-  // 4. Dynamic PvP Hit Crosshair with Animated Hitmarker and Sparks
-  var crosshairContainer = document.createElement("div");
-  crosshairContainer.id = "webmc_crosshair_container";
-  crosshairContainer.style = "position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;user-select:none;z-index:99999;display:none;";
-  crosshairContainer.innerHTML = `
-    <!-- Center Dot -->
-    <div id="webmc_ch_dot" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:4px;height:4px;background:#55ffff;border:1px solid #000;border-radius:50%;"></div>
-    <!-- 4 Crosshair Ticks -->
-    <div style="position:absolute;bottom:5px;left:50%;transform:translateX(-50%);width:2px;height:6px;background:#ffffff;border:1px solid #000;"></div>
-    <div style="position:absolute;top:5px;left:50%;transform:translateX(-50%);width:2px;height:6px;background:#ffffff;border:1px solid #000;"></div>
-    <div style="position:absolute;right:5px;top:50%;transform:translateY(-50%);width:6px;height:2px;background:#ffffff;border:1px solid #000;"></div>
-    <div style="position:absolute;left:5px;top:50%;transform:translateY(-50%);width:6px;height:2px;background:#ffffff;border:1px solid #000;"></div>
-    <!-- Hitmarker X -->
-    <div id="webmc_hitmarker" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) scale(0.8);font-size:20px;font-weight:bold;color:#ff2222;text-shadow:0 0 4px #000, 1px 1px 0 #000;opacity:0;transition:transform 0.15s ease-out, opacity 0.15s ease-out;">✕</div>
-    <!-- Critical Sparks Container -->
-    <div id="webmc_sparks_container" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:0;height:0;"></div>
-  `;
-  document.body.appendChild(crosshairContainer);
-
-  // 5. Toast Notification for Keybinds
-  var toastEl = document.createElement("div");
-  toastEl.id = "webmc_keybind_toast";
-  toastEl.style = "position:fixed;bottom:72px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.85);border:2px solid #555;padding:8px 18px;color:#ffff55;font-family:'Minecraft',monospace;font-size:15px;text-shadow:1px 1px 0 #000;pointer-events:none;user-select:none;z-index:9999999;opacity:0;transition:opacity 0.2s ease-out;";
-  document.body.appendChild(toastEl);
-  var toastTimer = null;
-
-  function showToast(text, color) {
-    if (toastTimer) clearTimeout(toastTimer);
-    toastEl.innerHTML = text;
-    toastEl.style.color = color || "#ffff55";
-    toastEl.style.opacity = "1";
-    toastTimer = setTimeout(function() {
-      toastEl.style.opacity = "0";
-    }, 1400);
+  // Toast notification
+  function showToast(msg, color) {
+    var existing = document.getElementById("webmc_toast");
+    if (existing) existing.remove();
+    var toast = document.createElement("div");
+    toast.id = "webmc_toast";
+    toast.style = "position:fixed;bottom:70px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.8);border:2px solid " + (color || "#55ff55") + ";color:#ffffff;padding:8px 18px;font-family:'Minecraft',monospace;font-size:14px;z-index:99999999;border-radius:4px;pointer-events:none;box-shadow:0 0 12px rgba(0,0,0,0.8);";
+    toast.innerHTML = msg;
+    document.body.appendChild(toast);
+    setTimeout(function() {
+      if (toast.parentNode) toast.remove();
+    }, 1600);
   }
 
-  // Hitmarker & Critical Sparks trigger
-  function triggerHitmarker() {
-    var isPlaying = !!(window.webmcMinecraft && window.webmcMinecraft.h && window.webmcMinecraft.m && !window.webmcMinecraft.bf);
-    var crossEnabled = localStorage.getItem("webmc_mod_crosshair") !== "false";
-    if (!isPlaying || !crossEnabled) return;
+  // HUD Elements
+  var hudContainer = document.createElement("div");
+  hudContainer.id = "webmc_hud_root";
+  hudContainer.style = "position:fixed;inset:0;pointer-events:none;z-index:999999;user-select:none;font-family:'Minecraft',monospace;";
+  document.body.appendChild(hudContainer);
 
-    var hm = document.getElementById("webmc_hitmarker");
+  // CPS HUD (Top Left)
+  var cpsHud = document.createElement("div");
+  cpsHud.id = "webmc_cps_hud";
+  cpsHud.style = "position:absolute;top:10px;left:10px;background:rgba(0,0,0,0.55);border:2px solid rgba(0,0,0,0.85);color:#ffffff;padding:6px 12px;font-size:14px;text-shadow:1px 1px 0px #000;display:none;align-items:center;gap:6px;";
+  hudContainer.appendChild(cpsHud);
+
+  // Keystrokes HUD (Top Left, below CPS)
+  var keystrokesHud = document.createElement("div");
+  keystrokesHud.id = "webmc_keystrokes_hud";
+  keystrokesHud.style = "position:absolute;top:48px;left:10px;display:none;flex-direction:column;gap:4px;";
+  hudContainer.appendChild(keystrokesHud);
+
+  // Coordinates & FPS HUD (Top Left, below Keystrokes)
+  var coordsHud = document.createElement("div");
+  coordsHud.id = "webmc_coords_hud";
+  coordsHud.style = "position:absolute;top:180px;left:10px;background:rgba(0,0,0,0.55);border:2px solid rgba(0,0,0,0.85);color:#ffffff;padding:6px 12px;font-size:13px;text-shadow:1px 1px 0px #000;display:none;";
+  hudContainer.appendChild(coordsHud);
+
+  // Dynamic PvP Crosshair Container (Center Screen)
+  var crosshairContainer = document.createElement("div");
+  crosshairContainer.id = "webmc_crosshair_container";
+  crosshairContainer.style = "position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;display:none;";
+  crosshairContainer.innerHTML = `
+    <div id="webmc_crosshair_base" style="position:relative;width:16px;height:16px;">
+      <div style="position:absolute;top:7px;left:0;width:16px;height:2px;background:#ffffff;box-shadow:0 0 2px #000;"></div>
+      <div style="position:absolute;top:0;left:7px;width:2px;height:16px;background:#ffffff;box-shadow:0 0 2px #000;"></div>
+      <div id="webmc_hitmarker_box" style="position:absolute;top:0;left:0;width:16px;height:16px;opacity:0;transition:opacity 0.15s ease-out;">
+        <div style="position:absolute;top:-4px;left:-4px;width:6px;height:2px;background:#ff3333;transform:rotate(45deg);"></div>
+        <div style="position:absolute;top:-4px;right:-4px;width:6px;height:2px;background:#ff3333;transform:rotate(-45deg);"></div>
+        <div style="position:absolute;bottom:-4px;left:-4px;width:6px;height:2px;background:#ff3333;transform:rotate(-45deg);"></div>
+        <div style="position:absolute;bottom:-4px;right:-4px;width:6px;height:2px;background:#ff3333;transform:rotate(45deg);"></div>
+      </div>
+      <div id="webmc_sparks_container" style="position:absolute;top:8px;left:8px;pointer-events:none;"></div>
+    </div>
+  `;
+  hudContainer.appendChild(crosshairContainer);
+
+  function triggerHitmarker() {
+    var hm = document.getElementById("webmc_hitmarker_box");
     if (hm) {
       hm.style.opacity = "1";
-      hm.style.transform = "translate(-50%,-50%) scale(1.35)";
-      setTimeout(function() {
-        hm.style.opacity = "0";
-        hm.style.transform = "translate(-50%,-50%) scale(0.8)";
-      }, 160);
+      setTimeout(function() { hm.style.opacity = "0"; }, 140);
     }
-
-    // Spawn sparks
     var sparksBox = document.getElementById("webmc_sparks_container");
     if (sparksBox) {
       for (var i = 0; i < 6; i++) {
@@ -33171,33 +33053,45 @@ setTimeout(function() {
     }
   }
 
-  // Zoom implementation (smooth canvas scale)
+  // Zoom implementation (in-game FOV zoom + smooth crisp canvas scale)
   function updateZoom(active) {
+    if (window.webmcMinecraft && window.webmcMinecraft.b) {
+      window.webmcMinecraft.b.PV = active ? -1.2 : 0.0;
+    }
     var canvas = document.querySelector("canvas");
     if (canvas) {
-      canvas.style.transition = "transform 0.12s ease-out";
-      canvas.style.transformOrigin = "center center";
-      canvas.style.transform = active ? "scale(3.4)" : "scale(1)";
+      if (active) {
+        canvas.style.transition = "transform 0.1s ease-out";
+        canvas.style.transformOrigin = "center center";
+        canvas.style.transform = "scale(2.5)";
+      } else {
+        canvas.style.transition = "";
+        canvas.style.transform = "none";
+      }
     }
   }
 
-  // Fullbright implementation
+  // Fullbright implementation (a0F is the true Gamma setting in GameSettings)
   function setFullbright(enabled) {
     localStorage.setItem("webmc_mod_fullbright", enabled ? "true" : "false");
     if (window.webmcMinecraft && window.webmcMinecraft.b) {
-      window.webmcMinecraft.b.aQ = enabled ? 10.0 : 1.0;
+      window.webmcMinecraft.b.a0F = enabled ? 10.0 : 1.0;
     }
+  }
+
+  // Check if player is actively playing in-game (not paused / in menu)
+  function checkIsPlaying() {
+    return !!(window.webmcMinecraft && window.webmcMinecraft.m && window.webmcMinecraft.F && !window.webmcMinecraft.bf);
   }
 
   // Keybind shortcuts handler
   function handleKeybinds(e) {
-    var isPlaying = !!(window.webmcMinecraft && window.webmcMinecraft.h && window.webmcMinecraft.m && !window.webmcMinecraft.bf);
+    var isPlaying = checkIsPlaying();
     var inModal = document.querySelector(".webmc_modal_bg") ||
                   document.getElementById("webmc_mods_modal") ||
-                  document.getElementById("webmc_settings_modal") ||
-                  document.getElementById("webmc_skincape_modal");
+                  document.getElementById("webmc_settings_modal");
 
-    // Mods Menu shortcut (M or RightShift)
+    // Mods Menu shortcut (KeyM or ShiftRight)
     if ((e.code === "KeyM" || e.code === "ShiftRight") && !inModal) {
       if (window.openWebMCMods) window.openWebMCMods();
       return;
@@ -33260,7 +33154,7 @@ setTimeout(function() {
     }
   }
 
-  // Main HUD Update Loop (CPS, Keystrokes, Coords, FPS, Crosshair)
+  // Main HUD Update Loop
   var frameCount = 0;
   var currentFps = 60;
   var lastFpsTime = performance.now();
@@ -33274,11 +33168,18 @@ setTimeout(function() {
       lastFpsTime = now;
     }
 
-    var isPlaying = !!(window.webmcMinecraft && window.webmcMinecraft.h && window.webmcMinecraft.m && !window.webmcMinecraft.bf);
+    var isPlaying = checkIsPlaying();
     var inModal = document.querySelector(".webmc_modal_bg") ||
                   document.getElementById("webmc_mods_modal") ||
-                  document.getElementById("webmc_settings_modal") ||
-                  document.getElementById("webmc_skincape_modal");
+                  document.getElementById("webmc_settings_modal");
+
+    // Check fullbright on boot
+    if (window.webmcMinecraft && window.webmcMinecraft.b) {
+      var fbCur = localStorage.getItem("webmc_mod_fullbright") === "true";
+      if (fbCur && window.webmcMinecraft.b.a0F !== 10.0) {
+        window.webmcMinecraft.b.a0F = 10.0;
+      }
+    }
 
     // 1. CPS Counter
     var cpsEnabled = localStorage.getItem("webmc_mod_cps") !== "false";
@@ -33331,11 +33232,17 @@ setTimeout(function() {
     var coordsEnabled = localStorage.getItem("webmc_mod_coords") !== "false";
     if (coordsEnabled && isPlaying && !inModal) {
       coordsHud.style.display = "block";
-      var player = window.webmcMinecraft.h;
-      var posX = player ? Math.floor(player.aO || player.p || 0) : 0;
-      var posY = player ? Math.floor(player.aP || player.fu || 0) : 64;
-      var posZ = player ? Math.floor(player.aQ || player.P || 0) : 0;
-      coordsHud.innerHTML = '<span style="color:#aaaaaa;">XYZ:</span> <span style="color:#ffffff;">' + posX + ', ' + posY + ', ' + posZ + '</span> <span style="color:#555;">|</span> <span style="color:#aaaaaa;">FPS:</span> <span style="color:#ffff55;">' + currentFps + '</span>';
+      var player = window.webmcMinecraft.m;
+      var posX = player ? Math.floor(player.h) : 0;
+      var posY = player ? Math.floor(player.k) : 64;
+      var posZ = player ? Math.floor(player.i) : 0;
+      var yaw = player ? Math.round(((player.s % 360) + 360) % 360) : 0;
+      var facing = "S";
+      if (yaw >= 45 && yaw < 135) facing = "W";
+      else if (yaw >= 135 && yaw < 225) facing = "N";
+      else if (yaw >= 225 && yaw < 315) facing = "E";
+
+      coordsHud.innerHTML = '<span style="color:#aaaaaa;">XYZ:</span> <span style="color:#ffffff;">' + posX + ' / ' + posY + ' / ' + posZ + '</span> <span style="color:#888;">(' + facing + ')</span> <span style="color:#555;">|</span> <span style="color:#aaaaaa;">FPS:</span> <span style="color:#ffff55;">' + currentFps + '</span>';
     } else {
       coordsHud.style.display = "none";
     }
@@ -33350,16 +33257,19 @@ setTimeout(function() {
 
     // 5. Toggle Sprint execution
     var sprintEnabled = localStorage.getItem("webmc_mod_sprint") === "true";
-    if (sprintEnabled && isPlaying && activeKeys["KeyW"]) {
-      var p = window.webmcMinecraft.h;
-      if (p && typeof p.q === "function") {
-        try { p.q(true); } catch(e) {}
+    if (sprintEnabled && isPlaying) {
+      var isMovingForward = !!activeKeys["KeyW"] || (window.webmcMinecraft && window.webmcMinecraft.b && window.webmcMinecraft.b.bGB && window.webmcMinecraft.b.bGB.CM);
+      if (isMovingForward && window.webmcMinecraft && window.webmcMinecraft.b && window.webmcMinecraft.b.a1U) {
+        window.webmcMinecraft.b.a1U.CM = 1;
+        if (window.webmcMinecraft.m && typeof window.webmcMinecraft.m.k1 === "function") {
+          try { window.webmcMinecraft.m.k1(true); } catch(e) {}
+        }
       }
     }
   }, 40);
 
-  // --- FULL CLIENT MODS MODAL (Tabs: PvP, Render, HUD, Keybinds) ---
-  window._webmcRealMods = window.openWebMCMods = function() {
+  // --- CLIENT MODS MODAL ---
+  window.openWebMCMods = function() {
     var existing = document.getElementById("webmc_mods_modal");
     if (existing) existing.remove();
 
@@ -33398,95 +33308,98 @@ setTimeout(function() {
           <div style="display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.04);border:1px solid #333;padding:10px 14px;">
             <div>
               <div style="font-size:15px;color:#ffffff;text-shadow:1px 1px 0px #000;margin-bottom:3px;">
-                ${title} ${keybindText ? `<span style="color:#ffff55;font-size:12px;margin-left:6px;">[${keybindText}]</span>` : ''}
+                ${title} ${keybindText ? "<span style='color:#ffff55;font-size:12px;margin-left:8px;background:rgba(0,0,0,0.4);padding:2px 6px;border:1px solid #555;'>[" + keybindText + "]</span>" : ""}
               </div>
-              <div style="font-size:12px;color:#888888;">${desc}</div>
+              <div style="font-size:12px;color:#888;">${desc}</div>
             </div>
-            <button class="webmc_mod_toggle_btn mc-btn" data-key="${key}" data-val="${val}" style="width:125px;height:34px;font-size:13px;">
-              ${val ? `<span style="color:#55ff55;">${onText || "ON"}</span>` : `<span style="color:#ff5555;">${offText || "OFF"}</span>`}
+            <button class="webmc_toggle_btn mc-btn" data-key="${key}" style="width:110px;height:32px;font-size:13px;background:${val ? '#4a6fa5' : '#444'};color:${val ? '#55ff55' : '#aaaaaa'};">
+              ${val ? (onText || "ON") : (offText || "OFF")}
             </button>
           </div>
         `;
       }
 
       var contentHtml = "";
-
       if (curTab === "pvp") {
-        contentHtml = [
-          createRow("Dynamic PvP Hit Crosshair", "Center dot & ticks + animated red hitmarkers and crit sparks", "webmc_mod_crosshair", true, "ENABLED", "DISABLED", "Key: X"),
-          createRow("CPS Counter HUD", "Shows live LMB & RMB clicks per second on screen", "webmc_mod_cps", true, "ON", "OFF", "Key: H"),
-          createRow("Toggle Sprint", "Automatically keeps player sprinting while moving forward", "webmc_mod_sprint", false, "ENABLED", "DISABLED", "Key: R")
-        ].join("");
-      } else if (curTab === "render") {
-        contentHtml = [
-          createRow("Fullbright (Max Gamma)", "Boosts ambient light for full visibility inside dark caves", "webmc_mod_fullbright", false, "MAX (10.0)", "DEFAULT", "Key: B"),
-          createRow("OptiFine Zoom", "Smooth focal lens zoom magnification when holding key", "webmc_mod_zoom", true, "ENABLED", "DISABLED", "Key: C")
-        ].join("");
-      } else if (curTab === "hud") {
-        contentHtml = [
-          createRow("Keystrokes HUD", "Displays active WASD and mouse buttons overlay", "webmc_mod_keystrokes", false, "SHOWN", "HIDDEN", "Key: K"),
-          createRow("Coordinates & FPS HUD", "Live player position (XYZ) and real-time framerate", "webmc_mod_coords", true, "SHOWN", "HIDDEN", "Key: J")
-        ].join("");
-      } else if (curTab === "keybinds") {
         contentHtml = `
-          <div style="background:rgba(0,0,0,0.4);border:1px solid #333;padding:14px;font-size:13px;line-height:1.8;color:#ddd;">
-            <div style="color:#ffff55;font-size:15px;margin-bottom:8px;border-bottom:1px solid #444;padding-bottom:4px;">WEBMC Client Keybinds</div>
-            <div><b style="color:#55ffff;">Key B:</b> Toggle Fullbright (Gamma Boost)</div>
-            <div><b style="color:#55ffff;">Key C:</b> OptiFine Zoom (Hold to zoom)</div>
-            <div><b style="color:#55ffff;">Key H:</b> Toggle CPS Counter HUD</div>
-            <div><b style="color:#55ffff;">Key K:</b> Toggle Keystrokes Overlay</div>
-            <div><b style="color:#55ffff;">Key J:</b> Toggle Coordinates &amp; FPS Counter</div>
-            <div><b style="color:#55ffff;">Key X:</b> Toggle Dynamic PvP Hit Crosshair</div>
-            <div><b style="color:#55ffff;">Key R:</b> Toggle Auto-Sprint Lock</div>
-            <div><b style="color:#55ffff;">Key M / RightShift:</b> Open Client Mods Menu</div>
+          ${createRow("Dynamic Hit Crosshair", "Shows PvP crosshair with animated hitmarkers & critical spark particles", "webmc_mod_crosshair", true, "ENABLED", "DISABLED", "Key X")}
+          ${createRow("Toggle Sprint", "Automatically sprints when walking forward without double-tapping W", "webmc_mod_sprint", true, "ENABLED", "DISABLED", "Key R")}
+          ${createRow("CPS Counter", "Displays real-time Left and Right clicks per second", "webmc_mod_cps", true, "SHOWN", "HIDDEN", "Key H")}
+          ${createRow("Keystrokes HUD", "Visualizes active WASD movement keys and Mouse clicks", "webmc_mod_keystrokes", true, "SHOWN", "HIDDEN", "Key K")}
+        `;
+      } else if (curTab === "render") {
+        contentHtml = `
+          ${createRow("Fullbright (Gamma Boost)", "Sets game lighting gamma to 10.0x for permanent night vision", "webmc_mod_fullbright", true, "ACTIVE", "DEFAULT", "Key B")}
+          ${createRow("Smooth Camera Zoom", "OptiFine-style smooth FOV zoom lens", "webmc_mod_zoom_hint", true, "HOLD C", "HOLD C", "Hold C")}
+          <div style="padding:10px 14px;background:rgba(255,255,255,0.03);border:1px solid #333;color:#aaaaaa;font-size:13px;line-height:1.5;">
+            <div style="color:#ffff55;margin-bottom:4px;">✦ Pixelated Crisp Canvas Active:</div>
+            The WEBMC canvas has pixel-perfect nearest-neighbor rendering enabled. Menus, fonts, widgets, and in-game textures remain razor sharp.
           </div>
         `;
+      } else if (curTab === "hud") {
+        contentHtml = `
+          ${createRow("Coordinates & FPS HUD", "Displays XYZ player coordinates, facing direction, and live FPS counter", "webmc_mod_coords", true, "SHOWN", "HIDDEN", "Key J")}
+          ${createRow("CPS Counter", "Displays real-time Left & Right clicks per second", "webmc_mod_cps", true, "SHOWN", "HIDDEN", "Key H")}
+          ${createRow("Keystrokes HUD", "Renders graphical WASD and mouse buttons overlay", "webmc_mod_keystrokes", true, "SHOWN", "HIDDEN", "Key K")}
+        `;
+      } else if (curTab === "keybinds") {
+        var keybindList = [
+          { key: "Key M / R-Shift", desc: "Open WEBMC Client Mods Menu" },
+          { key: "Key C (Hold)", desc: "OptiFine Smooth Zoom" },
+          { key: "Key B", desc: "Toggle Fullbright (Max Gamma)" },
+          { key: "Key R", desc: "Toggle Auto Sprint" },
+          { key: "Key H", desc: "Toggle CPS Counter HUD" },
+          { key: "Key K", desc: "Toggle Keystrokes HUD" },
+          { key: "Key J", desc: "Toggle Coordinates & FPS HUD" },
+          { key: "Key X", desc: "Toggle PvP Hit Crosshair" },
+          { key: "T or /", desc: "Open In-Game Chat & Commands" }
+        ];
+        contentHtml = keybindList.map(function(k) {
+          return `
+            <div style="display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.03);border:1px solid #333;padding:8px 14px;">
+              <span style="color:#ffffff;font-size:14px;">${k.desc}</span>
+              <span style="color:#ffff55;font-size:13px;background:rgba(0,0,0,0.4);border:1px solid #555;padding:3px 8px;">${k.key}</span>
+            </div>
+          `;
+        }).join("");
       }
 
       modal.innerHTML = `
-        <div style="text-align:center;margin-bottom:16px;">
-          <h1 style="margin:0 0 6px;font-size:24px;color:#ffff55;text-shadow:2px 2px 0px #3f3f00;font-weight:normal;">WEBMC Client Mods</h1>
-          <div style="font-size:14px;color:#aaaaaa;text-shadow:1px 1px 0px #000;">Performance, PvP &amp; Visual Modifications</div>
+        <div style="width:720px;max-width:94vw;background:rgba(12,16,26,0.92);border:2px solid #5a6988;box-shadow:0 0 35px rgba(0,0,0,0.95);display:flex;flex-direction:column;overflow:hidden;">
+          <div style="text-align:center;padding:16px 0 12px;font-size:22px;color:#ffffff;text-shadow:2px 2px 0px #000;border-bottom:2px solid #3b4252;">
+            WEBMC Client Mods
+          </div>
+          <div style="display:flex;gap:6px;padding:10px 14px;background:rgba(0,0,0,0.4);border-bottom:2px solid #3b4252;">
+            ${tabsHtml}
+          </div>
+          <div style="height:320px;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:8px;background:rgba(0,0,0,0.25);">
+            ${contentHtml}
+          </div>
+          <div style="padding:12px 16px;background:rgba(15,20,30,0.95);border-top:2px solid #3b4252;display:flex;justify-content:center;">
+            <button id="webmc_mods_close" class="mc-btn" style="width:200px;height:36px;font-size:15px;background:#4a6fa5;color:#ffffff;">Done</button>
+          </div>
         </div>
-
-        <!-- Navigation Tabs -->
-        <div style="display:flex;gap:8px;margin-bottom:14px;justify-content:center;flex-wrap:wrap;">
-          ${tabsHtml}
-        </div>
-
-        <!-- Content Area -->
-        <div style="width:min(94vw, 580px);background:rgba(0,0,0,0.55);border:2px solid #000;box-shadow:inset 2px 2px 0px #222;padding:16px;margin-bottom:20px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;">
-          ${contentHtml}
-        </div>
-
-        <button id="webmc_mods_close" class="mc-btn" style="width:200px;height:40px;font-size:15px;">
-          Done
-        </button>
       `;
 
-      // Tab switcher clicks
-      modal.querySelectorAll(".webmc_mod_tab_btn").forEach(function(b) {
-        b.onclick = function() {
-          curTab = b.getAttribute("data-tab");
+      modal.querySelectorAll(".webmc_mod_tab_btn").forEach(function(btn) {
+        btn.onclick = function() {
+          curTab = btn.getAttribute("data-tab");
           renderModsContent();
         };
       });
 
-      // Toggle clicks
-      modal.querySelectorAll(".webmc_mod_toggle_btn").forEach(function(b) {
-        b.onclick = function() {
-          var key = b.getAttribute("data-key");
-          var cur = b.getAttribute("data-val") === "true";
-          setToggle(key, !cur);
-
-          if (key === "webmc_mod_fullbright") {
+      modal.querySelectorAll(".webmc_toggle_btn").forEach(function(btn) {
+        btn.onclick = function() {
+          var k = btn.getAttribute("data-key");
+          var cur = getToggle(k, true);
+          setToggle(k, !cur);
+          if (k === "webmc_mod_fullbright") {
             setFullbright(!cur);
           }
           renderModsContent();
         };
       });
 
-      // Close button
       var closeBtn = modal.querySelector("#webmc_mods_close");
       if (closeBtn) {
         closeBtn.onclick = function() {
@@ -33500,232 +33413,9 @@ setTimeout(function() {
   };
 })();
 
-// --- 6. SKIN & CAPE LIBRARY (Preview, Upload, Rename, Delete, Wear) ---
+// --- 7. CLIENT SETTINGS MODAL WITH LIVE BACKGROUND SWITCHER ---
 (function() {
-  var SKIN_STORAGE_KEY = "webmc_custom_skins";
-  var CAPE_STORAGE_KEY = "webmc_custom_capes";
-
-  // Built-in presets
-  var PRESET_SKINS = [
-    { id: "steve", name: "Classic Steve", color: "#305f88" },
-    { id: "alex", name: "Alex (Slim)", color: "#547833" },
-    { id: "cyber", name: "Cyber Galaxy", color: "#6a2cd8" },
-    { id: "knight", name: "Dark Knight", color: "#333333" },
-    { id: "enderman", name: "Enderman Suit", color: "#111122" },
-    { id: "astro", name: "Astronaut", color: "#d8d8d8" },
-    { id: "ninja", name: "Shadow Ninja", color: "#1a1a1a" },
-    { id: "diamond", name: "Diamond Paladin", color: "#33bbbb" }
-  ];
-
-  var PRESET_CAPES = [
-    { id: "mojang", name: "Mojang Classic", color: "#aa1111" },
-    { id: "minecon11", name: "Minecon 2011 (Pickaxe)", color: "#992222" },
-    { id: "minecon12", name: "Minecon 2012 (Sword)", color: "#1f2d42" },
-    { id: "minecon13", name: "Minecon 2013 (Piston)", color: "#224422" },
-    { id: "minecon15", name: "Minecon 2015 (Golem)", color: "#2d4455" },
-    { id: "minecon16", name: "Minecon 2016 (Enderman)", color: "#221133" },
-    { id: "optifine", name: "OptiFine White", color: "#ffffff" },
-    { id: "cosmos", name: "Starry Cosmos", color: "#441166" }
-  ];
-
-  window.openWebMCSkinCapeLibrary = function() {
-    var existing = document.getElementById("webmc_skincape_modal");
-    if (existing) existing.remove();
-
-    var curTab = "skins";
-    var selectedSkin = localStorage.getItem("webmc_selected_skin") || "steve";
-    var selectedCape = localStorage.getItem("webmc_selected_cape") || "mojang";
-
-    var modal = document.createElement("div");
-    modal.id = "webmc_skincape_modal";
-    modal.className = "webmc_modal_bg";
-    modal.style = "position:fixed;inset:0;width:100vw;height:100vh;background:#050807 url('" + (window.webmcSpaceBg || "bg3.jpeg") + "') center/cover no-repeat fixed;z-index:9999999;display:flex;flex-direction:column;align-items:center;justify-content:center;user-select:none;font-family:'Minecraft',monospace;";
-
-    function renderSkinCapeUI() {
-      var isSkins = curTab === "skins";
-      var activeList = isSkins ? PRESET_SKINS : PRESET_CAPES;
-      var activeSelected = isSkins ? selectedSkin : selectedCape;
-
-      var itemsHtml = activeList.map(function(item) {
-        var isSel = item.id === activeSelected;
-        return `
-          <div class="webmc_skincape_card" data-id="${item.id}" style="display:flex;align-items:center;gap:12px;padding:8px 12px;background:${isSel ? 'rgba(0,0,0,0.85)' : 'rgba(0,0,0,0.45)'};border:${isSel ? '2px solid #ffffff' : '2px solid #333'};box-shadow:${isSel ? '0 0 8px rgba(255,255,255,0.3)' : 'none'};cursor:pointer;transition:background 0.1s;">
-            <!-- Color Swatch / Thumbnail -->
-            <div style="width:32px;height:32px;background:${item.color};border:2px solid #000;box-shadow:inset 1px 1px 0 #fff, inset -1px -1px 0 #000;border-radius:2px;"></div>
-            <div style="flex:1;">
-              <div style="font-size:15px;color:#ffffff;text-shadow:1px 1px 0 #000;">${item.name}</div>
-              <div style="font-size:11px;color:#888888;">Preset ${isSkins ? 'Skin' : 'Cape'}</div>
-            </div>
-            ${isSel ? '<span style="color:#55ff55;font-size:13px;">✓ WEARING</span>' : ''}
-          </div>
-        `;
-      }).join("");
-
-      modal.innerHTML = `
-        <div style="text-align:center;margin-bottom:14px;">
-          <h1 style="margin:0 0 6px;font-size:24px;color:#ffff55;text-shadow:2px 2px 0px #3f3f00;font-weight:normal;">Skin &amp; Cape Library</h1>
-          <div style="font-size:14px;color:#aaaaaa;text-shadow:1px 1px 0px #000;">Select, preview, and customize your character</div>
-        </div>
-
-        <!-- Tab Controls -->
-        <div style="display:flex;gap:10px;margin-bottom:14px;">
-          <button id="sk_tab_skins" class="mc-btn" style="width:140px;height:36px;font-size:15px;background:${isSkins ? '#8b9ac6' : '#555555'};color:${isSkins ? '#ffffa0' : '#ffffff'};">
-            Skins
-          </button>
-          <button id="sk_tab_capes" class="mc-btn" style="width:140px;height:36px;font-size:15px;background:${!isSkins ? '#8b9ac6' : '#555555'};color:${!isSkins ? '#ffffa0' : '#ffffff'};">
-            Capes
-          </button>
-        </div>
-
-        <!-- Main Workspace (Preview + List) -->
-        <div style="width:min(94vw, 760px);height:420px;background:rgba(0,0,0,0.6);border:2px solid #000;box-shadow:inset 2px 2px 0 #222;display:flex;padding:16px;gap:16px;box-sizing:border-box;margin-bottom:16px;">
-          <!-- Left: 2D/3D Player Character Preview -->
-          <div style="width:240px;background:rgba(0,0,0,0.4);border:2px solid #333;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px;box-sizing:border-box;position:relative;">
-            <div style="font-size:13px;color:#ffff55;margin-bottom:12px;text-shadow:1px 1px 0 #000;">Preview</div>
-            <!-- Character Figure Render -->
-            <div id="sk_char_preview" style="width:100px;height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;">
-              <!-- Head -->
-              <div style="width:40px;height:40px;background:#c48e58;border:2px solid #000;box-shadow:inset 2px 2px 0 rgba(255,255,255,0.2);margin-bottom:2px;display:flex;align-items:center;justify-content:center;">
-                <!-- Eyes -->
-                <div style="display:flex;gap:12px;">
-                  <div style="width:6px;height:4px;background:#3322aa;"></div>
-                  <div style="width:6px;height:4px;background:#3322aa;"></div>
-                </div>
-              </div>
-              <!-- Torso & Arms -->
-              <div style="display:flex;align-items:flex-start;gap:2px;">
-                <!-- Left Arm -->
-                <div style="width:16px;height:60px;background:#285172;border:2px solid #000;"></div>
-                <!-- Body -->
-                <div style="width:36px;height:60px;background:#285172;border:2px solid #000;display:flex;align-items:center;justify-content:center;">
-                  <!-- Cape badge if wearing cape -->
-                  <div style="width:24px;height:48px;background:${(function(){ var c = PRESET_CAPES.find(function(x){ return x.id === selectedCape; }); return c ? c.color : '#aa1111'; })()};border:1px solid #000;opacity:0.9;"></div>
-                </div>
-                <!-- Right Arm -->
-                <div style="width:16px;height:60px;background:#285172;border:2px solid #000;"></div>
-              </div>
-              <!-- Legs -->
-              <div style="display:flex;gap:4px;">
-                <div style="width:16px;height:60px;background:#202868;border:2px solid #000;"></div>
-                <div style="width:16px;height:60px;background:#202868;border:2px solid #000;"></div>
-              </div>
-            </div>
-            <div style="margin-top:12px;font-size:12px;color:#aaa;text-align:center;">
-              Wearing: <b style="color:#fff;">${isSkins ? selectedSkin : selectedCape}</b>
-            </div>
-          </div>
-
-          <!-- Right: Presets & Custom Upload List -->
-          <div style="flex:1;display:flex;flex-direction:column;min-width:0;">
-            <div style="flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding-right:6px;">
-              ${itemsHtml}
-            </div>
-            <!-- Custom Upload Bar -->
-            <div style="margin-top:10px;padding-top:10px;border-top:1px solid #333;display:flex;gap:10px;align-items:center;">
-              <input id="sk_file_input" type="file" accept="image/png" style="display:none;" />
-              <button id="sk_upload_btn" class="mc-btn" style="flex:1;height:36px;font-size:13px;background:#555555;">
-                Upload Custom ${isSkins ? 'Skin' : 'Cape'} PNG...
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Bottom Action Bar -->
-        <div style="display:flex;gap:12px;">
-          <button id="sk_btn_vanilla" class="mc-btn" style="width:220px;height:40px;font-size:14px;background:#555555;">
-            Minecraft Profile Menu
-          </button>
-          <button id="sk_btn_done" class="mc-btn" style="width:160px;height:40px;font-size:15px;">
-            Done
-          </button>
-        </div>
-      `;
-
-      // Tab clicks
-      modal.querySelector("#sk_tab_skins").onclick = function() {
-        curTab = "skins";
-        renderSkinCapeUI();
-      };
-      modal.querySelector("#sk_tab_capes").onclick = function() {
-        curTab = "capes";
-        renderSkinCapeUI();
-      };
-
-      // Card selection clicks
-      modal.querySelectorAll(".webmc_skincape_card").forEach(function(card) {
-        card.onclick = function() {
-          var id = card.getAttribute("data-id");
-          if (curTab === "skins") {
-            selectedSkin = id;
-            localStorage.setItem("webmc_selected_skin", id);
-          } else {
-            selectedCape = id;
-            localStorage.setItem("webmc_selected_cape", id);
-          }
-          renderSkinCapeUI();
-        };
-      });
-
-      // Upload custom skin button
-      var uploadBtn = modal.querySelector("#sk_upload_btn");
-      var fileInput = modal.querySelector("#sk_file_input");
-      if (uploadBtn && fileInput) {
-        uploadBtn.onclick = function() { fileInput.click(); };
-        fileInput.onchange = function() {
-          if (fileInput.files && fileInput.files[0]) {
-            var reader = new FileReader();
-            reader.onload = function(e) {
-              var dataUrl = e.target.result;
-              var customId = "custom_" + Date.now();
-              if (curTab === "skins") {
-                PRESET_SKINS.push({ id: customId, name: "Custom Skin (" + fileInput.files[0].name.slice(0, 12) + ")", color: "#aa8855" });
-                selectedSkin = customId;
-                localStorage.setItem("webmc_selected_skin", customId);
-              } else {
-                PRESET_CAPES.push({ id: customId, name: "Custom Cape (" + fileInput.files[0].name.slice(0, 12) + ")", color: "#5588aa" });
-                selectedCape = customId;
-                localStorage.setItem("webmc_selected_cape", customId);
-              }
-              renderSkinCapeUI();
-            };
-            reader.readAsDataURL(fileInput.files[0]);
-          }
-        };
-      }
-
-      // Vanilla Profile Menu Button
-      modal.querySelector("#sk_btn_vanilla").onclick = function() {
-        modal.remove();
-        if (window.webmcMinecraft && typeof ADn !== "undefined") {
-          try {
-            var mc = window.webmcMinecraft;
-            var profGui = new ADn();
-            if (typeof A !== "undefined" && typeof A.A7c === "function") {
-              A.A7c(profGui, mc.bf, mc.b, mc.A9);
-            }
-            if (typeof A !== "undefined" && typeof A.BwN === "function") {
-              A.BwN(mc, profGui);
-            }
-          } catch(err) {
-            console.warn("Could not open vanilla profile GUI directly:", err);
-          }
-        }
-      };
-
-      // Done button
-      modal.querySelector("#sk_btn_done").onclick = function() {
-        modal.remove();
-      };
-    }
-
-    renderSkinCapeUI();
-    document.body.appendChild(modal);
-  };
-})();
-
-// --- 7. SETTINGS MODAL & BACKGROUND SWITCHER ---
-(function() {
-  window.openWebMCSettings = function(openMinecraftSettingsCallback) {
+  window.openWebMCSettings = function(onDoneCallback) {
     var existing = document.getElementById("webmc_settings_modal");
     if (existing) existing.remove();
 
@@ -33734,97 +33424,71 @@ setTimeout(function() {
     modal.className = "webmc_modal_bg";
     modal.style = "position:fixed;inset:0;width:100vw;height:100vh;background:#050807 url('" + (window.webmcSpaceBg || "bg3.jpeg") + "') center/cover no-repeat fixed;z-index:9999999;display:flex;flex-direction:column;align-items:center;justify-content:center;user-select:none;font-family:'Minecraft',monospace;";
 
-    var curBg = localStorage.getItem("webmc_bg_choice") || "bg3.jpeg";
+    var bgOptions = [
+      { id: "bg3.jpeg", name: "Starlight Deep Space (Default)", desc: "Vibrant starry nebula panorama" },
+      { id: "bg1.jpeg", name: "Astral Nebula", desc: "Purple celestial cosmos" },
+      { id: "bg2.jpeg", name: "Cosmic Void", desc: "Minimalist dark deep sky" }
+    ];
 
     modal.innerHTML = `
-      <div style="text-align:center;margin-bottom:20px;">
-        <h1 style="margin:0 0 6px;font-size:24px;color:#ffff55;text-shadow:2px 2px 0px #3f3f00;font-weight:normal;">Settings</h1>
-        <div style="font-size:14px;color:#aaaaaa;text-shadow:1px 1px 0px #000;">Client &amp; Game Configuration</div>
-      </div>
+      <div style="width:680px;max-width:92vw;background:rgba(12,16,26,0.92);border:2px solid #5a6988;box-shadow:0 0 35px rgba(0,0,0,0.95);display:flex;flex-direction:column;overflow:hidden;">
+        <div style="text-align:center;padding:16px 0 12px;font-size:22px;color:#ffffff;text-shadow:2px 2px 0px #000;border-bottom:2px solid #3b4252;">
+          WEBMC Client Settings
+        </div>
+        <div style="padding:16px 20px;max-height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:12px;">
+          <div style="color:#ffffff;font-size:16px;text-shadow:1px 1px 0px #000;margin-bottom:4px;">
+            Menu & Panorama Background:
+          </div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            ${bgOptions.map(function(bg) {
+              var isSel = (window.webmcSpaceBg === bg.id);
+              var border = isSel ? "2px solid #ffffff" : "1px solid #444";
+              var bClr = isSel ? "#4a6fa5" : "rgba(255,255,255,0.04)";
+              return `
+                <div class="webmc_bg_option" data-bg="${bg.id}" style="display:flex;align-items:center;justify-content:space-between;background:${bClr};border:${border};padding:10px 14px;cursor:pointer;">
+                  <div>
+                    <div style="color:#ffffff;font-size:14px;text-shadow:1px 1px 0px #000;">${bg.name}</div>
+                    <div style="color:#888;font-size:12px;">${bg.desc}</div>
+                  </div>
+                  <span style="color:${isSel ? '#55ff55' : '#666'};font-size:14px;">${isSel ? 'ACTIVE' : 'SELECT'}</span>
+                </div>
+              `;
+            }).join("")}
+          </div>
 
-      <div style="width:min(92vw, 480px);background:rgba(0,0,0,0.6);border:2px solid #000;box-shadow:inset 2px 2px 0px #222;padding:20px;margin-bottom:24px;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;">
-        <!-- Minecraft Options -->
-        <button id="set_btn_minecraft" class="mc-btn" style="width:100%;height:40px;font-size:15px;">
-          Minecraft Options...
-        </button>
-
-        <!-- Client Mods -->
-        <button id="set_btn_mods" class="mc-btn" style="width:100%;height:40px;font-size:15px;">
-          Client Mods (PvP &amp; Render)...
-        </button>
-
-        <!-- Skin & Cape Library -->
-        <button id="set_btn_skincape" class="mc-btn" style="width:100%;height:40px;font-size:15px;">
-          Skin &amp; Cape Library...
-        </button>
-
-        <!-- Background Image Switcher -->
-        <div style="background:rgba(255,255,255,0.04);border:1px solid #333;padding:12px;display:flex;flex-direction:column;gap:8px;">
-          <div style="font-size:14px;color:#ffff55;text-shadow:1px 1px 0 #000;">Menu Background Switcher</div>
-          <div style="display:flex;gap:8px;">
-            <button class="bg-choice-btn mc-btn" data-bg="bg3.jpeg" style="flex:1;height:34px;font-size:12px;${curBg === 'bg3.jpeg' ? 'background:#8b9ac6;color:#ffffa0;' : ''}">
-              Cosmos (bg3)
-            </button>
-            <button class="bg-choice-btn mc-btn" data-bg="bg1.jpeg" style="flex:1;height:34px;font-size:12px;${curBg === 'bg1.jpeg' ? 'background:#8b9ac6;color:#ffffa0;' : ''}">
-              Planet (bg1)
-            </button>
-            <button class="bg-choice-btn mc-btn" data-bg="bg2.jpeg" style="flex:1;height:34px;font-size:12px;${curBg === 'bg2.jpeg' ? 'background:#8b9ac6;color:#ffffa0;' : ''}">
-              Orbit (bg2)
-            </button>
+          <div style="margin-top:10px;padding:12px;background:rgba(255,255,255,0.03);border:1px solid #333;">
+            <div style="color:#ffff55;font-size:14px;margin-bottom:4px;">WEBMC Client Quick Shortcuts:</div>
+            <div style="font-size:12px;color:#aaa;line-height:1.5;">
+              • Press <span style="color:#fff;">M</span> or <span style="color:#fff;">R-Shift</span> to open Client Mods<br/>
+              • Hold <span style="color:#fff;">C</span> for Smooth Zoom (OptiFine)<br/>
+              • Press <span style="color:#fff;">B</span> for Fullbright / Max Gamma<br/>
+              • Press <span style="color:#fff;">R</span> for Toggle Sprint<br/>
+              • Press <span style="color:#fff;">J</span> for Coordinates & FPS HUD
+            </div>
           </div>
         </div>
+        <div style="padding:14px 20px;background:rgba(15,20,30,0.95);border-top:2px solid #3b4252;display:flex;gap:10px;justify-content:center;">
+          <button id="webmc_settings_vanilla" class="mc-btn" style="flex:1;height:36px;font-size:14px;background:#555555;color:#ffffff;">Game Options (Vanilla)</button>
+          <button id="webmc_settings_done" class="mc-btn" style="flex:1;height:36px;font-size:14px;background:#4a6fa5;color:#ffffff;">Done</button>
+        </div>
       </div>
-
-      <button id="set_btn_close" class="mc-btn" style="width:200px;height:40px;font-size:15px;">
-        Done
-      </button>
     `;
 
-    modal.querySelectorAll("button").forEach(function(b) {
-      b.onmouseover = function() {
-        b.style.background = "#8b9ac6";
-        b.style.boxShadow = "inset 2px 2px 0px #b8c6e6, inset -2px -2px 0px #43537e";
-        b.style.color = "#ffffa0";
-      };
-      b.onmouseout = function() {
-        b.style.background = b.classList.contains("bg-choice-btn") && b.getAttribute("data-bg") === curBg ? "#8b9ac6" : "#707070";
-        b.style.boxShadow = "inset 2px 2px 0px #aaa, inset -2px -2px 0px #222";
-        b.style.color = b.classList.contains("bg-choice-btn") && b.getAttribute("data-bg") === curBg ? "#ffffa0" : "#ffffff";
+    modal.querySelectorAll(".webmc_bg_option").forEach(function(el) {
+      el.onclick = function() {
+        var choice = el.getAttribute("data-bg");
+        window.setWebMCBackground(choice);
+        modal.remove();
+        window.openWebMCSettings(onDoneCallback);
       };
     });
 
-    modal.querySelector("#set_btn_minecraft").onclick = function() {
+    modal.querySelector("#webmc_settings_vanilla").onclick = function() {
       modal.remove();
-      if (typeof openMinecraftSettingsCallback === "function") {
-        openMinecraftSettingsCallback();
-      }
+      if (typeof onDoneCallback === "function") onDoneCallback();
     };
 
-    modal.querySelector("#set_btn_mods").onclick = function() {
-      modal.remove();
-      if (window.openWebMCMods) window.openWebMCMods();
-    };
-
-    modal.querySelector("#set_btn_skincape").onclick = function() {
-      modal.remove();
-      if (window.openWebMCSkinCapeLibrary) window.openWebMCSkinCapeLibrary();
-    };
-
-    // Background Switcher buttons
-    modal.querySelectorAll(".bg-choice-btn").forEach(function(btn) {
-      btn.onclick = function() {
-        var choice = btn.getAttribute("data-bg");
-        curBg = choice;
-        if (window.setWebMCBackground) window.setWebMCBackground(choice);
-        modal.querySelectorAll(".bg-choice-btn").forEach(function(b) {
-          var isCur = b.getAttribute("data-bg") === curBg;
-          b.style.background = isCur ? "#8b9ac6" : "#707070";
-          b.style.color = isCur ? "#ffffa0" : "#ffffff";
-        });
-      };
-    });
-
-    modal.querySelector("#set_btn_close").onclick = function() {
+    modal.querySelector("#webmc_settings_done").onclick = function() {
       modal.remove();
     };
 
@@ -33832,15 +33496,6 @@ setTimeout(function() {
   };
 })();
 
-// Global chat command sender helper
-window.webmcSendChat = function(text) {
-  if (window.webmcMinecraft && window.webmcMinecraft.h && typeof BHc === "function") {
-    try {
-      BHc(window.webmcMinecraft.h, $rt_str(text));
-    } catch(e) { console.error("webmcSendChat err:", e); }
-  }
-};
 </script>
-
 </body>
 </html>
